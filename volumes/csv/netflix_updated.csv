@@ -1,0 +1,501 @@
+show_id,type,title,director,country,date_added,release_year,rating,duration,listed_in,city,score,lat,lon
+s1,Movie,Dick Johnson Is Dead,Kirsten Johnson,United States,9/25/2021,2020,PG-13,90 min,Documentaries,london,4.6,51.5073219,-0.1276474
+s3,TV Show,Ganglands,Julien Leclercq,France,9/24/2021,2021,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Action and Adventure",roma,6.0,41.8933203,12.4829321
+s6,TV Show,Midnight Mass,Mike Flanagan,United States,9/24/2021,2021,TV-MA,1 Season,"TV Dramas, TV Horror, TV Mysteries",seul,9.8,37.5666791,126.9782914
+s14,Movie,Confessions of an Invisible Girl,Bruno Garotti,Brazil,9/22/2021,2021,TV-PG,91 min,"Children and Family Movies, Comedies",istambul,5.4,41.0091982,28.9662187
+s8,Movie,Sankofa,Haile Gerima,United States,9/24/2021,1993,TV-MA,125 min,"Dramas, Independent Movies, International Movies",istambul,9.1,41.0091982,28.9662187
+s9,TV Show,The Great British Baking Show,Andy Devonshire,United Kingdom,9/24/2021,2021,TV-14,9 Seasons,"British TV Shows, Reality TV",porto,7.8,41.1494512,-8.6107884
+s10,Movie,The Starling,Theodore Melfi,United States,9/24/2021,2021,PG-13,104 min,"Comedies, Dramas",dubai,9.8,25.2653471,55.2924914
+s939,Movie,Motu Patlu in the Game of Zones,Suhas Kadav,India,5/1/2021,2019,TV-Y7,87 min,"Children and Family Movies, Comedies, Music and Musicals",los-angeles,7.4,34.0536909,-118.242766
+s13,Movie,Je Suis Karl,Christian Schwochow,Germany,9/23/2021,2021,TV-MA,127 min,"Dramas, International Movies",viena,9.9,48.2083537,16.3725042
+s940,Movie,Motu Patlu in Wonderland,Suhas Kadav,India,5/1/2021,2013,TV-Y7,76 min,"Children and Family Movies, Music and Musicals",seul,8.5,37.5666791,126.9782914
+s941,Movie,Motu Patlu: Deep Sea Adventure,Suhas Kadav,India,5/1/2021,2014,TV-Y7,76 min,"Children and Family Movies, Comedies",los-angeles,8.2,34.0536909,-118.242766
+s942,Movie,Motu Patlu: Mission Moon,Suhas Kadav,India,5/1/2021,2013,TV-Y7,71 min,"Children and Family Movies, Comedies",bangkok,4.9,13.7524938,100.4935089
+s852,Movie,99 Songs (Tamil),Not Given,Pakistan,5/21/2021,2021,TV-14,131 min,"Dramas, International Movies, Music and Musicals",dubai,4.0,25.2653471,55.2924914
+s471,Movie,Bridgerton - The Afterparty,"Krysia Plonka, Kristian Mercado",United States,7/13/2021,2021,TV-14,39 min,Movies,dubai,7.4,25.2653471,55.2924914
+s730,Movie,Bling Empire - The Afterparty,"Krysia Plonka, Kristian Mercado",United States,6/12/2021,2021,TV-MA,36 min,Movies,dubai,5.5,25.2653471,55.2924914
+s731,Movie,Cobra Kai - The Afterparty,"Krysia Plonka, Kristian Mercado",United States,6/12/2021,2021,TV-MA,34 min,Movies,dubai,3.3,25.2653471,55.2924914
+s913,Movie,The Circle - The Afterparty,"Krysia Plonka, Kristian Mercado",United States,5/7/2021,2021,TV-14,35 min,Comedies,dubai,8.4,25.2653471,55.2924914
+s4,TV Show,Jailbirds New Orleans,Not Given,Pakistan,9/24/2021,2021,TV-MA,1 Season,"Docuseries, Reality TV",barcelona,5.0,41.3828939,2.1774322
+s15,TV Show,Crime Stories: India Detectives,Not Given,Pakistan,9/22/2021,2021,TV-MA,1 Season,"British TV Shows, Crime TV Shows, Docuseries",los-angeles,4.4,34.0536909,-118.242766
+s3232,Movie,True: Winter Wishes,"Mark Thornton, Todd Kauffman",United States,11/26/2019,2019,TV-Y,46 min,Children and Family Movies,dubai,4.1,25.2653471,55.2924914
+s4832,TV Show,True: Magical Friends,"Mark Thornton, Todd Kauffman",United States,6/15/2018,2018,TV-Y,1 Season,Kids' TV,hong-kong,8.7,22.2793278,114.1628131
+s4833,TV Show,True: Wonderful Wishes,"Mark Thornton, Todd Kauffman",United States,6/15/2018,2018,TV-Y,1 Season,Kids' TV,praga,8.9,50.0874654,14.4212535
+s4857,TV Show,Dance and Sing with True,"Mark Thornton, Todd Kauffman",United States,5/18/2018,2018,TV-Y,1 Season,Kids' TV,los-angeles,3.5,34.0536909,-118.242766
+s7,Movie,My Little Pony: A New Generation,"Robert Cullen, José Luis Ucha",Not Given,9/24/2021,2021,PG,91 min,Children and Family Movies,madrid,9.4,40.4167047,-3.7035825
+s12,TV Show,Bangkok Breaking,Kongkiat Komesiri,Not Given,9/23/2021,2021,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Action and Adventure",los-angeles,7.9,34.0536909,-118.242766
+s17,Movie,Europe's Most Dangerous Man: Otto Skorzeny in Spain,"Pedro de Echave García, Pablo Azorín Williams",Not Given,9/22/2021,2020,TV-MA,67 min,"Documentaries, International Movies",madrid,3.5,40.4167047,-3.7035825
+s7930,Movie,Samudri Lootere,Anirban Majumder,Not Given,6/18/2019,2018,TV-Y,65 min,Children and Family Movies,new-york,5.8,40.7127281,-74.0060152
+s21,TV Show,Monsters Inside: The 24 Faces of Billy Milligan,Olivier Megaton,United States,9/22/2021,2021,TV-14,1 Season,"Crime TV Shows, Docuseries, International TV Shows",amsterdam,5.9,52.3727598,4.8936041
+s24,Movie,Go! Go! Cory Carson: Chrissy Takes the Wheel,"Alex Woo, Stanley Moore",United States,9/21/2021,2021,TV-Y,61 min,Children and Family Movies,viena,9.8,48.2083537,16.3725042
+s25,Movie,Jeans,S. Shankar,India,9/21/2021,1998,TV-14,166 min,"Comedies, International Movies, Romantic Movies",lisboa,3.9,38.7077507,-9.1365919
+s28,Movie,Grown Ups,Dennis Dugan,United States,9/20/2021,2010,PG-13,103 min,Comedies,lisboa,8.0,38.7077507,-9.1365919
+s29,Movie,Dark Skies,Scott Stewart,United States,9/19/2021,2013,PG-13,97 min,"Horror Movies, Sci-Fi and Fantasy",shenzhen,8.7,22.5445741,114.0545429
+s30,Movie,Paranoia,Robert Luketic,United States,9/19/2021,2013,PG-13,106 min,Thrillers,xangai,7.8,31.2322758,121.4692071
+s20,TV Show,Jaguar,Not Given,Pakistan,9/22/2021,2021,TV-MA,1 Season,"International TV Shows, Spanish-Language TV Shows, TV Action and Adventure",paris,5.4,48.8588897,2.3200410217200766
+s32,TV Show,Chicago Party Aunt,Not Given,Pakistan,9/17/2021,2021,TV-MA,1 Season,TV Comedies,lisboa,5.8,38.7077507,-9.1365919
+s34,TV Show,Squid Game,Not Given,Pakistan,9/17/2021,2021,TV-MA,1 Season,"International TV Shows, TV Dramas, TV Thrillers",lisboa,4.3,38.7077507,-9.1365919
+s35,TV Show,Tayo and Little Wizards,Not Given,Pakistan,9/17/2021,2020,TV-Y7,1 Season,Kids' TV,madrid,8.1,40.4167047,-3.7035825
+s75,TV Show,The World's Most Amazing Vacation Rentals,Not Given,Pakistan,9/14/2021,2021,TV-PG,2 Seasons,Reality TV,xangai,4.7,31.2322758,121.4692071
+s84,TV Show,Metal Shop Masters,Not Given,Pakistan,9/10/2021,2021,TV-MA,1 Season,Reality TV,hong-kong,9.3,22.2793278,114.1628131
+s86,TV Show,Pokémon Master Journeys: The Series,Not Given,Pakistan,9/10/2021,2021,TV-Y7,1 Season,"Anime Series, Kids' TV",new-york,6.0,40.7127281,-74.0060152
+s88,TV Show,Titipo Titipo,Not Given,Pakistan,9/10/2021,2019,TV-Y,2 Seasons,"Kids' TV, Korean TV Shows",roma,4.2,41.8933203,12.4829321
+s90,TV Show,Mighty Raju,Not Given,Pakistan,9/9/2021,2017,TV-Y7,4 Seasons,Kids' TV,los-angeles,6.8,34.0536909,-118.242766
+s101,TV Show,Tobot Galaxy Detectives,Not Given,Pakistan,9/7/2021,2019,TV-Y7,2 Seasons,Kids' TV,shenzhen,3.2,22.5445741,114.0545429
+s122,TV Show,Hotel Del Luna,Not Given,Pakistan,9/2/2021,2019,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",amsterdam,9.1,52.3727598,4.8936041
+s133,TV Show,Brave Animated Series,Not Given,Pakistan,9/1/2021,2021,TV-MA,1 Season,"International TV Shows, TV Action and Adventure, TV Comedies",milan,8.4,45.4641943,9.1896346
+s148,TV Show,How to Be a Cowboy,Not Given,Pakistan,9/1/2021,2021,TV-PG,1 Season,Reality TV,barcelona,3.1,41.3828939,2.1774322
+s166,TV Show,Oldsters,Not Given,Pakistan,9/1/2021,2019,TV-MA,1 Season,"Crime TV Shows, International TV Shows, Spanish-Language TV Shows",roma,6.5,41.8933203,12.4829321
+s190,TV Show,Bread Barbershop,Not Given,Pakistan,8/28/2021,2020,TV-Y,2 Seasons,"Kids' TV, TV Comedies",xangai,3.7,31.2322758,121.4692071
+s182,TV Show,Turning Point: 9/11 and the War on Terror,Not Given,Pakistan,9/1/2021,2021,TV-14,1 Season,Docuseries,seul,6.8,37.5666791,126.9782914
+s187,TV Show,Hometown Cha-Cha-Cha,Not Given,Pakistan,8/29/2021,2021,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",barcelona,8.4,41.3828939,2.1774322
+s188,TV Show,The Ingenuity of the Househusband,Not Given,Pakistan,8/29/2021,2021,TV-G,1 Season,"International TV Shows, TV Comedies",seul,5.8,37.5666791,126.9782914
+s27,Movie,Minsara Kanavu,Rajiv Menon,India,9/21/2021,1997,TV-PG,147 min,"Comedies, International Movies, Music and Musicals",praga,4.3,50.0874654,14.4212535
+s19,Movie,Intrusion,Adam Salky,Not Given,9/22/2021,2021,TV-14,94 min,Thrillers,paris,9.9,48.8588897,2.3200410217200766
+s23,Movie,Avvai Shanmughi,K.S. Ravikumar,Not Given,9/21/2021,1996,TV-PG,161 min,"Comedies, International Movies",barcelona,8.4,41.3828939,2.1774322
+s31,Movie,Ankahi Kahaniya,"Ashwiny Iyer Tiwari, Abhishek Chaubey, Saket Chaudhary",Not Given,9/17/2021,2021,TV-14,111 min,"Dramas, Independent Movies, International Movies",istambul,6.2,41.0091982,28.9662187
+s36,Movie,The Father Who Moves Mountains,Daniel Sandu,Not Given,9/17/2021,2021,TV-MA,110 min,"Dramas, International Movies, Thrillers",coimbra,4.5,40.2111931,-8.4294632
+s37,Movie,The Stronghold,Cédric Jimenez,Not Given,9/17/2021,2021,TV-MA,105 min,"Action and Adventure, Dramas, International Movies",xangai,5.5,31.2322758,121.4692071
+s39,Movie,Birth of the Dragon,George Nolfi,China,9/16/2021,2017,PG-13,96 min,"Action and Adventure, Dramas",london,5.2,51.5073219,-0.1276474
+s48,TV Show,The Smart Money Woman,Bunmi Ajakaiye,South Africa,9/16/2021,2020,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",xangai,9.8,31.2322758,121.4692071
+s76,Movie,You vs. Wild: Out Cold,Ben Simms,United States,9/14/2021,2021,TV-G,106 min,Children and Family Movies,bangkok,3.6,13.7524938,100.4935089
+s42,Movie,Jaws,Steven Spielberg,United States,9/16/2021,1975,PG,124 min,"Action and Adventure, Classic Movies, Dramas",paris,9.9,48.8588897,2.3200410217200766
+s43,Movie,Jaws 2,Jeannot Szwarc,United States,9/16/2021,1978,PG,116 min,"Dramas, Horror Movies, Thrillers",shenzhen,8.8,22.5445741,114.0545429
+s44,Movie,Jaws 3,Joe Alves,United States,9/16/2021,1983,PG,98 min,"Action and Adventure, Horror Movies, Thrillers",madrid,6.1,40.4167047,-3.7035825
+s45,Movie,Jaws: The Revenge,Joseph Sargent,United States,9/16/2021,1987,PG-13,91 min,"Action and Adventure, Horror Movies, Thrillers",los-angeles,4.1,34.0536909,-118.242766
+s47,Movie,Safe House,Daniel Espinosa,South Africa,9/16/2021,2012,R,115 min,Action and Adventure,seul,7.4,37.5666791,126.9782914
+s49,Movie,Training Day,Antoine Fuqua,United States,9/16/2021,2001,R,122 min,"Dramas, Thrillers",new-york,5.1,40.7127281,-74.0060152
+s1093,Movie,Dolly Parton: A MusiCares Tribute,Not Given,Pakistan,4/7/2021,2021,TV-PG,55 min,"Documentaries, Music and Musicals",hong-kong,3.7,22.2793278,114.1628131
+s195,TV Show,Deadly Sins,Not Given,Pakistan,8/27/2021,2002,TV-MA,1 Season,"International TV Shows, Spanish-Language TV Shows, TV Dramas",new-york,5.0,40.7127281,-74.0060152
+s52,Movie,InuYasha the Movie 2: The Castle Beyond the Looking Glass,Toshiya Shinohara,Japan,9/15/2021,2002,TV-14,99 min,"Action and Adventure, Anime Features, International Movies",milan,3.7,45.4641943,9.1896346
+s53,Movie,InuYasha the Movie 3: Swords of an Honorable Ruler,Toshiya Shinohara,Japan,9/15/2021,2003,TV-14,99 min,"Action and Adventure, Anime Features, International Movies",istambul,5.5,41.0091982,28.9662187
+s54,Movie,InuYasha the Movie 4: Fire on the Mystic Island,Toshiya Shinohara,Japan,9/15/2021,2004,TV-PG,88 min,"Action and Adventure, Anime Features, International Movies",porto,4.7,41.1494512,-8.6107884
+s55,Movie,InuYasha the Movie: Affections Touching Across Time,Toshiya Shinohara,Japan,9/15/2021,2001,TV-PG,100 min,"Action and Adventure, Anime Features, International Movies",macau,8.5,22.1899448,113.5380454
+s198,TV Show,I Heart Arlo,Not Given,Pakistan,8/27/2021,2021,TV-Y7,1 Season,"Kids' TV, TV Comedies",new-york,3.6,40.7127281,-74.0060152
+s56,TV Show,Nailed It,Not Given,United States,9/15/2021,2021,TV-PG,6 Seasons,Reality TV,rio-de-janeiro,4.3,-22.9110137,-43.2093727
+s498,TV Show,Cat People,Not Given,Pakistan,7/7/2021,2021,TV-14,1 Season,Docuseries,barcelona,9.3,41.3828939,2.1774322
+s214,TV Show,RIDE ON TIME,Not Given,Pakistan,8/27/2021,2021,TV-PG,3 Seasons,"Docuseries, International TV Shows",madrid,4.5,40.4167047,-3.7035825
+s219,TV Show,Titletown High,Not Given,Pakistan,8/27/2021,2021,TV-14,1 Season,"Reality TV, Teen TV Shows",london,4.4,51.5073219,-0.1276474
+s225,TV Show,Motel Makeover,Not Given,Pakistan,8/25/2021,2021,TV-14,1 Season,"International TV Shows, Reality TV",rio-de-janeiro,4.0,-22.9110137,-43.2093727
+s226,TV Show,Open Your Eyes,Not Given,Pakistan,8/25/2021,2021,TV-MA,1 Season,"International TV Shows, TV Dramas, TV Mysteries",dubai,8.0,25.2653471,55.2924914
+s227,TV Show,Post Mortem: No One Dies in Skarnes,Not Given,Pakistan,8/25/2021,2021,TV-MA,1 Season,"International TV Shows, TV Comedies, TV Dramas",porto,6.5,41.1494512,-8.6107884
+s46,Movie,My Heroes Were Cowboys,Tyler Greco,Not Given,9/16/2021,2021,PG,23 min,Documentaries,macau,3.5,22.1899448,113.5380454
+s57,Movie,Naruto Shippuden the Movie: Blood Prison,Masahiko Murata,Japan,9/15/2021,2011,TV-14,102 min,"Action and Adventure, Anime Features, International Movies",istambul,3.7,41.0091982,28.9662187
+s58,Movie,Naruto Shippûden the Movie: Bonds,Hajime Kamegaki,Japan,9/15/2021,2008,TV-PG,93 min,"Action and Adventure, Anime Features, International Movies",los-angeles,8.4,34.0536909,-118.242766
+s59,Movie,Naruto Shippûden the Movie: The Will of Fire,Masahiko Murata,Japan,9/15/2021,2009,TV-PG,96 min,"Action and Adventure, Anime Features, International Movies",viena,8.2,48.2083537,16.3725042
+s60,Movie,Naruto Shippuden: The Movie,Hajime Kamegaki,Japan,9/15/2021,2007,TV-PG,95 min,"Action and Adventure, Anime Features, International Movies",seul,9.3,37.5666791,126.9782914
+s61,Movie,Naruto Shippuden: The Movie: The Lost Tower,Masahiko Murata,Japan,9/15/2021,2010,TV-14,85 min,"Action and Adventure, Anime Features, International Movies",xangai,5.4,31.2322758,121.4692071
+s62,Movie,Naruto the Movie 2: Legend of the Stone of Gelel,Hirotsugu Kawasaki,Japan,9/15/2021,2005,TV-PG,97 min,"Action and Adventure, Anime Features, International Movies",frankfurt,9.1,50.1106444,8.6820917
+s63,Movie,Naruto the Movie 3: Guardians of the Crescent Moon Kingdom,Toshiyuki Tsuru,Japan,9/15/2021,2006,TV-PG,95 min,"Action and Adventure, Anime Features, International Movies",new-york,9.3,40.7127281,-74.0060152
+s64,Movie,Naruto the Movie: Ninja Clash in the Land of Snow,Tensai Okamura,Japan,9/15/2021,2004,TV-PG,83 min,"Action and Adventure, Anime Features, International Movies",new-york,4.0,40.7127281,-74.0060152
+s243,TV Show,Comedy Premium League,Not Given,Pakistan,8/20/2021,2021,TV-MA,1 Season,"International TV Shows, TV Comedies",amsterdam,8.2,52.3727598,4.8936041
+s244,TV Show,Everything Will Be Fine,Not Given,Pakistan,8/20/2021,2021,TV-MA,1 Season,"International TV Shows, Spanish-Language TV Shows, TV Comedies",lisboa,8.7,38.7077507,-9.1365919
+s246,TV Show,Korean Cold Noodle Rhapsody,Not Given,Pakistan,8/20/2021,2021,TV-PG,1 Season,"Docuseries, International TV Shows",macau,6.0,22.1899448,113.5380454
+s249,TV Show,The Chair,Not Given,Pakistan,8/20/2021,2021,TV-MA,1 Season,"TV Comedies, TV Dramas",milan,5.8,45.4641943,9.1896346
+s261,TV Show,The Defeated,Not Given,Pakistan,8/18/2021,2020,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Dramas",milan,7.0,45.4641943,9.1896346
+s310,TV Show,Car Masters: Rust to Riches,Not Given,Pakistan,8/4/2021,2021,TV-PG,3 Seasons,Reality TV,coimbra,3.1,40.2111931,-8.4294632
+s74,Movie,King of Boys,Kemi Adetiba,Nigeria,9/14/2021,2018,TV-MA,182 min,"Dramas, International Movies",viena,5.0,48.2083537,16.3725042
+s321,TV Show,Top Secret UFO Projects: Declassified,Not Given,Pakistan,8/3/2021,2021,TV-PG,1 Season,Docuseries,frankfurt,8.2,50.1106444,8.6820917
+s337,TV Show,Friday Night Lights,Not Given,Pakistan,8/1/2021,2010,TV-14,5 Seasons,"TV Dramas, Teen TV Shows",viena,9.8,48.2083537,16.3725042
+s365,TV Show,Centaurworld,Not Given,Pakistan,7/30/2021,2021,TV-Y7,1 Season,"Kids' TV, TV Comedies",roma,3.5,41.8933203,12.4829321
+s369,TV Show,Khawatir,Not Given,Pakistan,7/30/2021,2009,TV-14,1 Season,"International TV Shows, Reality TV",barcelona,8.9,41.3828939,2.1774322
+s370,TV Show,Myth and Mogul: John DeLorean,Not Given,Pakistan,7/30/2021,2021,TV-14,1 Season,"British TV Shows, Crime TV Shows, Docuseries",porto,4.9,41.1494512,-8.6107884
+s377,TV Show,Transformers: War for Cybertron: Kingdom,Not Given,Pakistan,7/29/2021,2021,TV-Y7,1 Season,Anime Series,barcelona,4.7,41.3828939,2.1774322
+s380,TV Show,Tattoo Redo,Not Given,Pakistan,7/28/2021,2021,TV-MA,1 Season,Reality TV,xangai,5.2,31.2322758,121.4692071
+s382,TV Show,The Snitch Cartel: Origins,Not Given,Pakistan,7/28/2021,2021,TV-MA,1 Season,"Crime TV Shows, International TV Shows, Spanish-Language TV Shows",istambul,9.4,41.0091982,28.9662187
+s398,TV Show,Feels Like Ishq,Not Given,Pakistan,7/23/2021,2021,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",new-york,8.3,40.7127281,-74.0060152
+s483,TV Show,How to Become a Tyrant,Not Given,Pakistan,7/9/2021,2021,TV-MA,1 Season,Docuseries,praga,5.6,50.0874654,14.4212535
+s82,Movie,Kate,Cedric Nicolas-Troyan,United States,9/10/2021,2021,R,106 min,Action and Adventure,seul,9.0,37.5666791,126.9782914
+s85,Movie,Omo Ghetto: the Saga,"JJC Skillz, Funke Akindele",Nigeria,9/10/2021,2020,TV-MA,147 min,"Action and Adventure, Comedies, Dramas",london,5.6,51.5073219,-0.1276474
+s87,Movie,Prey,Thomas Sieben,Germany,9/10/2021,2021,TV-MA,87 min,"International Movies, Thrillers",barcelona,4.5,41.3828939,2.1774322
+s401,TV Show,Revelations: The Masters of the Universe: Revelation Aftershow,Not Given,Pakistan,7/23/2021,2021,TV-PG,1 Season,"Anime Series, Stand-Up Comedy and Talk Shows",madrid,5.6,40.4167047,-3.7035825
+s405,Movie,9to5: The Story of a Movement,Not Given,Pakistan,7/22/2021,2021,TV-MA,85 min,Documentaries,hong-kong,5.1,22.2793278,114.1628131
+s91,Movie,Paradise Hills,Alice Waddington,Spain,9/9/2021,2019,TV-MA,95 min,"Sci-Fi and Fantasy, Thrillers",seul,6.1,37.5666791,126.9782914
+s92,Movie,The Women and the Murderer,"Mona Achache, Patricia Tourancheau",France,9/9/2021,2021,TV-14,92 min,"Documentaries, International Movies",shenzhen,6.1,22.5445741,114.0545429
+s431,TV Show,Sexy Beasts,Not Given,Pakistan,7/21/2021,2021,TV-14,1 Season,"British TV Shows, International TV Shows, Reality TV",london,6.9,51.5073219,-0.1276474
+s95,Movie,Show Dogs,Raja Gosnell,United Kingdom,9/8/2021,2018,PG,90 min,"Children and Family Movies, Comedies",new-york,8.3,40.7127281,-74.0060152
+s1071,Movie,Why Did You Kill Me?,Fredrick Munk,United States,4/14/2021,2021,TV-MA,84 min,Documentaries,macau,6.3,22.1899448,113.5380454
+s432,TV Show,Too Hot to Handle: Brazil,Not Given,Pakistan,7/21/2021,2021,TV-MA,1 Season,"International TV Shows, Reality TV, Romantic TV Shows",milan,7.7,45.4641943,9.1896346
+s436,TV Show,Touch Your Heart,Not Given,Pakistan,7/20/2021,2019,TV-MA,1 Season,"Crime TV Shows, International TV Shows, Romantic TV Shows",roma,7.8,41.8933203,12.4829321
+s467,TV Show,My Unorthodox Life,Not Given,Pakistan,7/14/2021,2021,TV-MA,1 Season,Reality TV,amsterdam,7.2,52.3727598,4.8936041
+s488,TV Show,The Cook of Castamar,Not Given,Pakistan,7/9/2021,2021,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, Spanish-Language TV Shows",hong-kong,4.0,22.2793278,114.1628131
+s491,TV Show,Elize Matsunaga: Once Upon a Crime,Not Given,Pakistan,7/8/2021,2021,TV-MA,1 Season,"Crime TV Shows, Docuseries, International TV Shows",shenzhen,8.1,22.5445741,114.0545429
+s505,TV Show,The War Next-door,Not Given,Pakistan,7/7/2021,2021,TV-MA,1 Season,"International TV Shows, Spanish-Language TV Shows, TV Comedies",porto,9.7,41.1494512,-8.6107884
+s550,TV Show,Big Timber,Not Given,Pakistan,7/2/2021,2020,TV-14,1 Season,"International TV Shows, Reality TV",amsterdam,6.2,52.3727598,4.8936041
+s572,TV Show,Generation 56k,Not Given,Pakistan,7/1/2021,2021,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",bangkok,9.6,13.7524938,100.4935089
+s591,TV Show,Sailor Moon Crystal,Not Given,Pakistan,7/1/2021,2016,TV-Y7,3 Seasons,"Anime Series, Kids' TV",frankfurt,3.9,50.1106444,8.6820917
+s640,TV Show,Godzilla Singular Point,Not Given,Pakistan,6/24/2021,2021,TV-14,1 Season,"Anime Series, International TV Shows",london,7.4,51.5073219,-0.1276474
+s642,Movie,Sisters on Track,Not Given,Pakistan,6/24/2021,2021,PG,97 min,"Documentaries, Sports Movies",milan,3.5,45.4641943,9.1896346
+s648,TV Show,The Parisian Agency: Exclusive Properties,Not Given,Pakistan,6/23/2021,2021,TV-G,1 Season,"International TV Shows, Reality TV",frankfurt,3.3,50.1106444,8.6820917
+s78,Movie,Little Singham - Black Shadow,Prakash Satam,Not Given,9/11/2021,2021,TV-Y7,48 min,"Children and Family Movies, Comedies",lisboa,5.6,38.7077507,-9.1365919
+s81,Movie,Firedrake the Silver Dragon,Tomer Eshed,Not Given,9/10/2021,2021,TV-Y7,93 min,Children and Family Movies,coimbra,3.8,40.2111931,-8.4294632
+s79,Movie,Tughlaq Durbar,Delhiprasad Deenadayalan,Not Given,9/11/2021,2020,TV-14,145 min,"Comedies, Dramas, International Movies",dubai,8.8,25.2653471,55.2924914
+s80,Movie,Tughlaq Durbar (Telugu),Delhiprasad Deenadayalan,Not Given,9/11/2021,2021,TV-14,145 min,"Comedies, Dramas, International Movies",madrid,3.0,40.4167047,-3.7035825
+s89,Movie,Blood Brothers: Malcolm X and Muhammad Ali,Marcus Clarke,Not Given,9/9/2021,2021,PG-13,96 min,"Documentaries, Sports Movies",amsterdam,5.2,52.3727598,4.8936041
+s94,Movie,JJ+E,Alexis Almström,Not Given,9/8/2021,2021,TV-MA,91 min,"Dramas, International Movies, Romantic Movies",frankfurt,3.5,50.1106444,8.6820917
+s113,Movie,Worth,Sara Colangelo,United States,9/3/2021,2021,PG-13,119 min,Dramas,bangkok,3.2,13.7524938,100.4935089
+s97,Movie,If I Leave Here Tomorrow: A Film About Lynyrd Skynyrd,Stephen Kijak,United States,9/7/2021,2018,TV-MA,97 min,"Documentaries, Music and Musicals",london,4.5,51.5073219,-0.1276474
+s114,Movie,Afterlife of the Party,Stephen Herek,United States,9/2/2021,2021,TV-PG,110 min,"Comedies, Romantic Movies",amsterdam,7.7,52.3727598,4.8936041
+s654,TV Show,This Is Pop,Not Given,Pakistan,6/22/2021,2021,TV-MA,1 Season,"Docuseries, International TV Shows",los-angeles,9.1,34.0536909,-118.242766
+s659,TV Show,"Nevertheless,",Not Given,Pakistan,6/20/2021,2021,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",milan,4.0,45.4641943,9.1896346
+s762,TV Show,Human: The World Within,Not Given,Pakistan,6/4/2021,2021,TV-PG,1 Season,"Docuseries, Science and Nature TV",coimbra,7.8,40.2111931,-8.4294632
+s102,Movie,Untold: Breaking Point,"Chapman Way, Maclain Way",United States,9/7/2021,2021,TV-MA,80 min,"Documentaries, Sports Movies",seul,4.5,37.5666791,126.9782914
+s664,TV Show,Charité at War,Not Given,Pakistan,6/19/2021,2019,TV-MA,1 Season,"International TV Shows, TV Dramas",new-york,4.8,40.7127281,-74.0060152
+s106,Movie,Angamaly Diaries,Lijo Jose Pellissery,India,9/5/2021,2017,TV-14,128 min,"Action and Adventure, Comedies, Dramas",paris,5.0,48.8588897,2.3200410217200766
+s698,TV Show,Elite Short Stories: Carla Samuel,Not Given,Pakistan,6/17/2021,2021,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, Spanish-Language TV Shows",madrid,6.1,40.4167047,-3.7035825
+s108,Movie,A Champion Heart,David de Vos,United States,9/4/2021,2018,G,90 min,"Children and Family Movies, Dramas",xangai,6.6,31.2322758,121.4692071
+s701,TV Show,Record of Ragnarok,Not Given,Pakistan,6/17/2021,2021,TV-MA,1 Season,"Anime Series, International TV Shows",seul,8.5,37.5666791,126.9782914
+s707,TV Show,Elite Short Stories: Omar Ander Alexis,Not Given,Pakistan,6/16/2021,2021,TV-MA,1 Season,"International TV Shows, Spanish-Language TV Shows, TV Dramas",dubai,7.3,25.2653471,55.2924914
+s711,TV Show,Penguin Town,Not Given,Pakistan,6/16/2021,2021,TV-PG,1 Season,"Docuseries, Science and Nature TV",macau,4.3,22.1899448,113.5380454
+s115,Movie,Anjaam,Rahul Rawail,India,9/2/2021,1994,TV-14,143 min,"Dramas, International Movies, Thrillers",paris,4.2,48.8588897,2.3200410217200766
+s715,TV Show,Beyond Evil,Not Given,Pakistan,6/15/2021,2021,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Thrillers",paris,4.3,48.8588897,2.3200410217200766
+s716,TV Show,Elite Short Stories: Nadia Guzmán,Not Given,Pakistan,6/15/2021,2021,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, Spanish-Language TV Shows",porto,3.2,41.1494512,-8.6107884
+s718,Movie,Headspace: Unwind Your Mind,Not Given,Pakistan,6/15/2021,2021,TV-G,273 min,Documentaries,new-york,3.5,40.7127281,-74.0060152
+s721,TV Show,Rhyme Time Town,Not Given,Pakistan,6/15/2021,2021,TV-Y,2 Seasons,Kids' TV,amsterdam,4.0,52.3727598,4.8936041
+s726,TV Show,Elite Short Stories: Guzmán Caye Rebe,Not Given,Pakistan,6/14/2021,2021,TV-MA,1 Season,"International TV Shows, Spanish-Language TV Shows, TV Dramas",madrid,4.4,40.4167047,-3.7035825
+s733,Movie,To All the Boys: Always and Forever - The Afterparty,Not Given,Pakistan,6/12/2021,2021,TV-MA,36 min,Movies,amsterdam,5.6,52.3727598,4.8936041
+s739,Movie,Trese After Dark,Not Given,Pakistan,6/11/2021,2021,TV-14,36 min,"Anime Features, Documentaries",rio-de-janeiro,6.8,-22.9110137,-43.2093727
+s752,TV Show,Guru Aur Bhole,Not Given,Pakistan,6/8/2021,2018,TV-Y7,2 Seasons,"Kids' TV, TV Comedies",milan,8.8,45.4641943,9.1896346
+s843,TV Show,High on the Hog: How African American Cuisine Transformed America,Not Given,Pakistan,5/26/2021,2021,TV-14,1 Season,Docuseries,macau,9.4,22.1899448,113.5380454
+s848,TV Show,Mad for Each Other,Not Given,Pakistan,5/24/2021,2021,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",new-york,5.5,40.7127281,-74.0060152
+s850,Movie,Sam Smith: Love Goes - Live at Abbey Road Studios,Not Given,Pakistan,5/22/2021,2020,TV-G,61 min,"International Movies, Music and Musicals",hong-kong,5.3,22.2793278,114.1628131
+s937,TV Show,Miniforce: Super Dino Power,Not Given,Pakistan,5/1/2021,2020,TV-Y7,1 Season,Kids' TV,lisboa,4.0,38.7077507,-9.1365919
+s928,TV Show,Barney and Friends,Not Given,Pakistan,5/1/2021,2010,TV-Y,2 Seasons,Kids' TV,praga,5.9,50.0874654,14.4212535
+s958,TV Show,Pet Stars,Not Given,Pakistan,4/30/2021,2021,TV-PG,1 Season,Reality TV,istambul,7.1,41.0091982,28.9662187
+s964,TV Show,The Unremarkable Juanquini,Not Given,Pakistan,4/30/2021,2021,TV-MA,2 Seasons,"International TV Shows, Spanish-Language TV Shows, TV Comedies",lisboa,7.7,38.7077507,-9.1365919
+s966,TV Show,Yasuke,Not Given,Pakistan,4/29/2021,2021,TV-MA,1 Season,"Anime Series, International TV Shows",istambul,8.6,41.0091982,28.9662187
+s968,TV Show,Headspace Guide to Sleep,Not Given,Pakistan,4/28/2021,2021,TV-G,1 Season,"Docuseries, Science and Nature TV",madrid,5.3,40.4167047,-3.7035825
+s103,TV Show,Countdown: Inspiration4 Mission to Space,Jason Hehir,Not Given,9/6/2021,2021,TV-14,1 Season,"Docuseries, Science and Nature TV",rio-de-janeiro,3.9,-22.9110137,-43.2093727
+s104,Movie,Shadow Parties,Yemi Amodu,Not Given,9/6/2021,2020,TV-MA,117 min,"Dramas, International Movies, Thrillers",frankfurt,3.9,50.1106444,8.6820917
+s111,TV Show,Money Heist: From Tokyo to Berlin,"Luis Alfaro, Javier Gómez Santander",Not Given,9/3/2021,2021,TV-MA,1 Season,"Docuseries, International TV Shows, Spanish-Language TV Shows",rio-de-janeiro,9.9,-22.9110137,-43.2093727
+s116,Movie,Bright Star,Jane Campion,United Kingdom,9/2/2021,2009,PG,119 min,"Dramas, Romantic Movies",bangkok,7.4,13.7524938,100.4935089
+s117,Movie,Dhanak,Nagesh Kukunoor,India,9/2/2021,2015,TV-PG,114 min,"Comedies, Dramas, Independent Movies",hong-kong,3.4,22.2793278,114.1628131
+s118,Movie,Final Account,Luke Holland,United Kingdom,9/2/2021,2021,PG-13,94 min,Documentaries,porto,9.3,41.1494512,-8.6107884
+s119,Movie,Gurgaon,Shanker Raman,India,9/2/2021,2017,TV-14,106 min,"Dramas, International Movies, Thrillers",frankfurt,7.1,50.1106444,8.6820917
+s120,Movie,Here and There,JP Habac,Philippines,9/2/2021,2020,TV-MA,99 min,"Dramas, International Movies, Romantic Movies",los-angeles,3.2,34.0536909,-118.242766
+s129,Movie,Agatha Christie's Crooked House,Gilles Paquet-Brenner,France,9/1/2021,2017,PG-13,115 min,"Dramas, International Movies, Thrillers",madrid,8.2,40.4167047,-3.7035825
+s123,Movie,In the Cut,Jane Campion,United Kingdom,9/2/2021,2003,R,118 min,Thrillers,paris,3.4,48.8588897,2.3200410217200766
+s1006,Movie,Keymon and Nani in Space Adventure,Not Given,Pakistan,4/20/2021,2013,TV-Y,76 min,"Children and Family Movies, Comedies",hong-kong,5.2,22.2793278,114.1628131
+s1011,Movie,Rudra: The Rise of King Pharaoh,Not Given,Pakistan,4/20/2021,2019,TV-Y7,91 min,Children and Family Movies,london,4.6,51.5073219,-0.1276474
+s1026,TV Show,Bakugan: Geogan Rising,Not Given,Pakistan,4/16/2021,2021,TV-Y7,1 Season,"Anime Series, Kids' TV",seul,7.3,37.5666791,126.9782914
+s127,Movie,Shikara,Vidhu Vinod Chopra,India,9/2/2021,2020,TV-14,115 min,"Dramas, International Movies, Romantic Movies",dubai,6.9,25.2653471,55.2924914
+s128,Movie,A Cinderella Story,Mark Rosman,United States,9/1/2021,2004,PG,95 min,"Children and Family Movies, Comedies",madrid,7.1,40.4167047,-3.7035825
+s130,Movie,An Unfinished Life,Lasse Hallström,Germany,9/1/2021,2005,PG-13,108 min,Dramas,hong-kong,9.0,22.2793278,114.1628131
+s132,Movie,Blade Runner: The Final Cut,Ridley Scott,United States,9/1/2021,1982,R,117 min,"Action and Adventure, Classic Movies, Cult Movies",new-york,4.8,40.7127281,-74.0060152
+s1029,Movie,Dad Stop Embarrassing Me - The Afterparty,Not Given,Pakistan,4/16/2021,2021,TV-14,37 min,Comedies,macau,8.6,22.1899448,113.5380454
+s134,Movie,Chappie,Neill Blomkamp,South Africa,9/1/2021,2015,R,121 min,"Action and Adventure, Sci-Fi and Fantasy",coimbra,3.4,40.2111931,-8.4294632
+s153,Movie,Janoskians: Untold and Untrue,Brett Weiner,United States,9/1/2021,2016,TV-MA,88 min,Comedies,viena,4.8,48.2083537,16.3725042
+s1039,TV Show,Dancing Angels,Not Given,Pakistan,4/15/2021,2016,TV-PG,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",xangai,4.1,31.2322758,121.4692071
+s1083,TV Show,Don't be the First one,Not Given,Pakistan,4/11/2021,2021,TV-14,1 Season,"International TV Shows, Reality TV",hong-kong,7.0,22.2793278,114.1628131
+s1095,TV Show,The Wedding Coach,Not Given,Pakistan,4/7/2021,2021,TV-MA,1 Season,"Reality TV, Romantic TV Shows",roma,5.5,41.8933203,12.4829321
+s1096,TV Show,This Is a Robbery: The World's Biggest Art Heist,Not Given,Pakistan,4/7/2021,2021,TV-MA,1 Season,"Crime TV Shows, Docuseries, TV Mysteries",istambul,4.2,41.0091982,28.9662187
+s1117,TV Show,Glimpses of a Future,Not Given,Pakistan,4/1/2021,2020,TV-PG,1 Season,"Docuseries, International TV Shows",praga,4.8,50.0874654,14.4212535
+s1181,TV Show,Alien TV,Not Given,Pakistan,3/19/2021,2021,TV-Y7,2 Seasons,"Kids' TV, TV Comedies",porto,8.2,41.1494512,-8.6107884
+s1225,TV Show,Last Chance U: Basketball,Not Given,Pakistan,3/10/2021,2021,TV-MA,1 Season,Docuseries,shenzhen,7.7,22.5445741,114.0545429
+s1226,TV Show,Marriage or Mortgage,Not Given,Pakistan,3/10/2021,2021,TV-G,1 Season,"Reality TV, Romantic TV Shows",praga,8.3,50.0874654,14.4212535
+s1236,TV Show,Pokémon Journeys: The Series,Not Given,Pakistan,3/5/2021,2021,TV-Y7,4 Seasons,"Anime Series, Kids' TV, TV Action and Adventure",amsterdam,8.7,52.3727598,4.8936041
+s131,Movie,Barbie Big City Big Dreams,Scott Pleydell-Pearce,Not Given,9/1/2021,2021,TV-Y,63 min,"Children and Family Movies, Music and Musicals",london,5.0,51.5073219,-0.1276474
+s135,Movie,Clear and Present Danger,Phillip Noyce,United States,9/1/2021,1994,PG-13,142 min,"Action and Adventure, Dramas",barcelona,9.4,41.3828939,2.1774322
+s136,Movie,Cliffhanger,Renny Harlin,United States,9/1/2021,1993,R,113 min,Action and Adventure,macau,7.9,22.1899448,113.5380454
+s137,Movie,Cold Mountain,Anthony Minghella,United States,9/1/2021,2003,R,154 min,"Dramas, Romantic Movies",hong-kong,8.8,22.2793278,114.1628131
+s138,Movie,Crocodile Dundee in Los Angeles,Simon Wincer,Australia,9/1/2021,2001,PG,95 min,"Action and Adventure, Comedies",roma,7.2,41.8933203,12.4829321
+s139,Movie,Dear John,Lasse Hallström,United States,9/1/2021,2010,PG-13,108 min,"Dramas, Romantic Movies",milan,9.2,45.4641943,9.1896346
+s140,Movie,Do the Right Thing,Spike Lee,United States,9/1/2021,1989,R,120 min,"Classic Movies, Comedies, Dramas",coimbra,4.6,40.2111931,-8.4294632
+s141,Movie,"El patrón, radiografía de un crimen",Sebastián Schindel,Argentina,9/1/2021,2014,TV-MA,100 min,"Dramas, International Movies, Thrillers",praga,5.5,50.0874654,14.4212535
+s142,Movie,Extraction,Steven C. Miller,United States,9/1/2021,2015,R,82 min,Action and Adventure,istambul,3.4,41.0091982,28.9662187
+s143,Movie,Freedom Writers,Richard LaGravenese,Germany,9/1/2021,2007,PG-13,124 min,Dramas,porto,7.6,41.1494512,-8.6107884
+s144,Movie,Green Lantern,Martin Campbell,United States,9/1/2021,2011,PG-13,114 min,"Action and Adventure, Sci-Fi and Fantasy",rio-de-janeiro,8.1,-22.9110137,-43.2093727
+s145,Movie,House Party,Reginald Hudlin,United States,9/1/2021,1990,R,104 min,"Comedies, Cult Movies",lisboa,7.8,38.7077507,-9.1365919
+s146,Movie,House Party 2,"George Jackson, Doug McHenry",United States,9/1/2021,1991,R,94 min,"Comedies, Cult Movies, Music and Musicals",paris,7.6,48.8588897,2.3200410217200766
+s147,Movie,House Party 3,Eric Meza,United States,9/1/2021,1994,R,94 min,"Comedies, Music and Musicals",istambul,6.1,41.0091982,28.9662187
+s1263,Movie,Ginny and Georgia - The Afterparty,Not Given,Pakistan,2/26/2021,2021,TV-MA,35 min,"Comedies, Dramas",barcelona,7.5,41.3828939,2.1774322
+s150,Movie,I Got the Hook Up,Michael Martin,United States,9/1/2021,1998,R,93 min,"Action and Adventure, Comedies",seul,9.5,37.5666791,126.9782914
+s151,Movie,In Too Deep,Michael Rymer,United States,9/1/2021,1999,R,97 min,Thrillers,frankfurt,4.8,50.1106444,8.6820917
+s152,Movie,Initial D,"Andrew Lau Wai-keung, Alan Mak",China,9/1/2021,2005,TV-14,109 min,"Action and Adventure, International Movies",shenzhen,3.8,22.5445741,114.0545429
+s1272,TV Show,The Last Bastion,Not Given,Pakistan,2/25/2021,2018,TV-MA,1 Season,"International TV Shows, Spanish-Language TV Shows, TV Dramas",london,5.8,51.5073219,-0.1276474
+s1300,TV Show,Thus Spoke Kishibe Rohan,Not Given,Pakistan,2/18/2021,2021,TV-MA,1 Season,"Anime Series, International TV Shows",milan,3.6,45.4641943,9.1896346
+s1443,TV Show,Korean Pork Belly Rhapsody,Not Given,Pakistan,1/4/2021,2020,TV-G,1 Season,"Docuseries, International TV Shows",porto,6.5,41.1494512,-8.6107884
+s156,Movie,Labyrinth,Jim Henson,United Kingdom,9/1/2021,1986,PG,101 min,"Action and Adventure, Children and Family Movies, Cult Movies",rio-de-janeiro,9.2,-22.9110137,-43.2093727
+s157,Movie,Letters to Juliet,Gary Winick,United States,9/1/2021,2010,PG,105 min,"Comedies, Dramas, Romantic Movies",frankfurt,9.1,50.1106444,8.6820917
+s158,Movie,Level 16,Danishka Esterhazy,Canada,9/1/2021,2018,TV-14,102 min,"Sci-Fi and Fantasy, Thrillers",macau,5.5,22.1899448,113.5380454
+s159,Movie,Love Don't Cost a Thing,Troy Byer,United States,9/1/2021,2003,PG-13,101 min,"Comedies, Romantic Movies",bangkok,4.7,13.7524938,100.4935089
+s160,Movie,Love in a Puff,Pang Ho-cheung,Hong Kong,9/1/2021,2010,TV-MA,103 min,"Comedies, Dramas, International Movies",dubai,6.0,25.2653471,55.2924914
+s1463,TV Show,Running Man,Not Given,Pakistan,1/1/2021,2020,TV-Y7,1 Season,"Kids' TV, TV Comedies",porto,4.9,41.1494512,-8.6107884
+s162,Movie,Mars Attacks!,Tim Burton,United States,9/1/2021,1996,PG-13,106 min,"Comedies, Cult Movies, Sci-Fi and Fantasy",hong-kong,6.2,22.2793278,114.1628131
+s163,Movie,Marshall,Reginald Hudlin,United States,9/1/2021,2017,PG-13,118 min,Dramas,roma,7.8,41.8933203,12.4829321
+s164,Movie,My Boss's Daughter,David Zucker,United States,9/1/2021,2003,R,86 min,"Comedies, Romantic Movies",lisboa,4.0,38.7077507,-9.1365919
+s165,Movie,Mystery Men,Kinka Usher,United States,9/1/2021,1999,PG-13,121 min,"Action and Adventure, Comedies",bangkok,8.6,13.7524938,100.4935089
+s1472,Movie,Best of Stand-Up 2020,Not Given,Pakistan,12/31/2020,2020,TV-MA,77 min,Stand-Up Comedy,dubai,7.7,25.2653471,55.2924914
+s167,Movie,Once Upon a Time in America,Sergio Leone,Italy,9/1/2021,1984,R,229 min,"Classic Movies, Dramas",barcelona,8.1,41.3828939,2.1774322
+s168,Movie,Open Season 2,"Matthew O Callaghan, Todd Wilderman",United States,9/1/2021,2008,PG,76 min,"Children and Family Movies, Comedies",lisboa,6.3,38.7077507,-9.1365919
+s169,Movie,Osmosis Jones,"Bobby Farrelly, Peter Farrelly",United States,9/1/2021,2001,PG,95 min,"Action and Adventure, Children and Family Movies, Comedies",new-york,5.6,40.7127281,-74.0060152
+s170,Movie,Poseidon,Wolfgang Petersen,United States,9/1/2021,2006,PG-13,98 min,"Action and Adventure, Dramas",amsterdam,7.5,52.3727598,4.8936041
+s1483,TV Show,Transformers: War for Cybertron: Earthrise,Not Given,Pakistan,12/30/2020,2020,TV-Y7,1 Season,Anime Series,viena,4.5,48.2083537,16.3725042
+s1586,TV Show,Manhunt: Deadly Games,Not Given,Pakistan,12/7/2020,2020,TV-14,1 Season,"Crime TV Shows, TV Dramas, TV Mysteries",new-york,3.8,40.7127281,-74.0060152
+s1597,TV Show,The Great British Baking Show: Holidays,Not Given,Pakistan,12/4/2020,2020,TV-MA,3 Seasons,"British TV Shows, Reality TV",xangai,7.1,31.2322758,121.4692071
+s1669,TV Show,Heart and Soul,Not Given,Pakistan,11/20/2020,2019,TV-14,1 Season,"International TV Shows, TV Dramas",rio-de-janeiro,8.1,-22.9110137,-43.2093727
+s1746,Movie,Ya no estoy aquí: Una conversación entre Guillermo del Toro y Alfonso Cuarón,Not Given,Pakistan,11/3/2020,2020,TV-PG,15 min,Documentaries,xangai,5.9,31.2322758,121.4692071
+s1779,TV Show,Kongsuni and Friends,Not Given,Pakistan,10/30/2020,2020,TV-Y,2 Seasons,"Kids' TV, Korean TV Shows",istambul,9.3,41.0091982,28.9662187
+s1890,TV Show,Pat a Pat Como,Not Given,Pakistan,10/3/2020,2016,TV-Y,1 Season,Kids' TV,madrid,7.7,40.4167047,-3.7035825
+s1891,TV Show,Qurious Como,Not Given,Pakistan,10/3/2020,2017,TV-Y,1 Season,Kids' TV,los-angeles,5.9,34.0536909,-118.242766
+s2983,TV Show,Find Yourself,Not Given,Pakistan,1/29/2020,2020,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",frankfurt,8.4,50.1106444,8.6820917
+s1915,TV Show,Journey of an African Colony,Not Given,Pakistan,10/1/2020,2018,TV-MA,1 Season,"Docuseries, International TV Shows",frankfurt,4.2,50.1106444,8.6820917
+s1953,TV Show,Mighty Little Bheem,Not Given,Pakistan,9/25/2020,2020,TV-Y,3 Seasons,"Kids' TV, TV Comedies",macau,4.7,22.1899448,113.5380454
+s171,Movie,Rhyme and Reason,Peter Spirer,United States,9/1/2021,1997,R,89 min,"Documentaries, Music and Musicals",seul,9.7,37.5666791,126.9782914
+s172,Movie,Same Kind of Different as Me,Michael Carney,United States,9/1/2021,2017,PG-13,120 min,"Dramas, Faith and Spirituality",bangkok,7.5,13.7524938,100.4935089
+s173,Movie,School of Rock,Richard Linklater,United States,9/1/2021,2003,PG-13,110 min,"Comedies, Music and Musicals",milan,8.1,45.4641943,9.1896346
+s174,Movie,Snervous Tyler Oakley,Amy Rice,United States,9/1/2021,2015,PG-13,83 min,"Documentaries, LGBTQ Movies",coimbra,5.6,40.2111931,-8.4294632
+s175,Movie,Tears of the Sun,Antoine Fuqua,United States,9/1/2021,2003,R,121 min,"Action and Adventure, Dramas",istambul,3.7,41.0091982,28.9662187
+s176,Movie,The Blue Lagoon,Randal Kleiser,United States,9/1/2021,1980,R,105 min,"Dramas, Romantic Movies",shenzhen,3.9,22.5445741,114.0545429
+s177,Movie,The Golden Child,Michael Ritchie,United States,9/1/2021,1986,PG-13,94 min,"Action and Adventure, Comedies",milan,6.1,45.4641943,9.1896346
+s178,Movie,The Guns of Navarone,J. Lee Thompson,United Kingdom,9/1/2021,1961,TV-14,156 min,"Action and Adventure, Classic Movies",xangai,7.2,31.2322758,121.4692071
+s179,Movie,The Interview,"Evan Goldberg, Seth Rogen",United States,9/1/2021,2014,R,112 min,"Action and Adventure, Comedies",coimbra,8.9,40.2111931,-8.4294632
+s180,Movie,The Nutty Professor,Tom Shadyac,United States,9/1/2021,1996,PG-13,95 min,"Comedies, Romantic Movies",istambul,4.2,41.0091982,28.9662187
+s181,Movie,The Nutty Professor II: The Klumps,Peter Segal,United States,9/1/2021,2000,PG-13,107 min,"Comedies, Romantic Movies",amsterdam,5.8,52.3727598,4.8936041
+s183,Movie,Welcome Home Roscoe Jenkins,Malcolm D. Lee,United States,9/1/2021,2008,PG-13,114 min,Comedies,roma,4.5,41.8933203,12.4829321
+s184,Movie,In the Line of Fire,Wolfgang Petersen,United States,8/31/2021,1993,R,129 min,"Action and Adventure, Classic Movies",barcelona,6.7,41.3828939,2.1774322
+s186,Movie,Untold: Crime and Penalties,"Chapman Way, Maclain Way",United States,8/31/2021,2021,TV-MA,86 min,"Documentaries, Sports Movies",rio-de-janeiro,5.2,-22.9110137,-43.2093727
+s1957,Movie,Zulu Man in Japan,Not Given,Pakistan,9/25/2020,2019,TV-MA,44 min,"Documentaries, International Movies, Music and Musicals",viena,3.4,48.2083537,16.3725042
+s1974,TV Show,Fukrey Boyzzz,Not Given,Pakistan,9/19/2020,2020,TV-Y,1 Season,"Kids' TV, TV Comedies",london,8.7,51.5073219,-0.1276474
+s189,Movie,2 Alone in Paris,"Ramzy Bedia, Éric Judor",France,8/28/2021,2008,TV-MA,97 min,"Comedies, International Movies",new-york,8.2,40.7127281,-74.0060152
+s2041,TV Show,Transformers: Cyberverse,Not Given,Pakistan,9/7/2020,2020,TV-Y7,2 Seasons,Kids' TV,macau,4.9,22.1899448,113.5380454
+s2059,TV Show,The Witcher: A Look Inside the Episodes,Not Given,Pakistan,9/2/2020,2020,TV-MA,1 Season,"Docuseries, TV Sci-Fi and Fantasy",madrid,7.8,40.4167047,-3.7035825
+s2124,TV Show,Dérè: An African Tale,Not Given,Pakistan,8/15/2020,2016,TV-PG,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",barcelona,6.2,41.3828939,2.1774322
+s2223,TV Show,Street Food: Latin America,Not Given,Pakistan,7/21/2020,2020,TV-PG,1 Season,"Docuseries, Spanish-Language TV Shows",macau,3.2,22.1899448,113.5380454
+s2237,Movie,Little Singham: Legend of Dugabakka,Not Given,Pakistan,7/15/2020,2020,TV-Y7,68 min,"Children and Family Movies, Comedies",hong-kong,4.1,22.2793278,114.1628131
+s2336,Movie,Seven (Telugu),Not Given,Pakistan,6/26/2020,2019,TV-14,116 min,"Dramas, International Movies, Romantic Movies",new-york,6.9,40.7127281,-74.0060152
+s191,Movie,Thimmarusu,Sharan Koppisetty,India,8/28/2021,2021,TV-14,125 min,"Dramas, International Movies",frankfurt,5.8,50.1106444,8.6820917
+s192,Movie,Wind River,Taylor Sheridan,United Kingdom,8/28/2021,2017,R,107 min,"Dramas, Independent Movies",london,6.0,51.5073219,-0.1276474
+s193,Movie,C Kkompany,Sachin Yardi,India,8/27/2021,2008,TV-14,127 min,"Action and Adventure, Comedies, International Movies",seul,9.2,37.5666791,126.9782914
+s197,Movie,He's All That,Mark Waters,United States,8/27/2021,2021,TV-14,92 min,"Comedies, Romantic Movies",roma,8.8,41.8933203,12.4829321
+s2395,TV Show,Dating Around,Not Given,Pakistan,6/12/2020,2020,TV-MA,2 Seasons,"Reality TV, Romantic TV Shows",amsterdam,8.2,52.3727598,4.8936041
+s196,Movie,EMI: Liya Hai To Chukana Padega,Saurabh Kabra,India,8/27/2021,2008,TV-14,128 min,"Comedies, Dramas, International Movies",dubai,3.2,25.2653471,55.2924914
+s4655,TV Show,First and Last,Not Given,Pakistan,9/7/2018,2018,TV-MA,1 Season,Docuseries,new-york,6.4,40.7127281,-74.0060152
+s199,TV Show,King of Boys: The Return of the King,Kemi Adetiba,Nigeria,8/27/2021,2021,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Dramas",madrid,7.1,40.4167047,-3.7035825
+s200,Movie,Koi Aap Sa,Partho Mitra,India,8/27/2021,2006,TV-14,135 min,"Comedies, Dramas, International Movies",porto,6.9,41.1494512,-8.6107884
+s201,Movie,Krishna Cottage,Santram Varma,India,8/27/2021,2004,TV-14,124 min,"Action and Adventure, Horror Movies, International Movies",barcelona,9.7,41.3828939,2.1774322
+s202,Movie,Kucch To Hai,"Anil V. Kumar, Anurag Basu",India,8/27/2021,2003,TV-14,136 min,"Dramas, International Movies, Thrillers",roma,5.3,41.8933203,12.4829321
+s203,Movie,Kyaa Kool Hai Hum,Sangeeth Sivan,India,8/27/2021,2005,TV-MA,165 min,"Comedies, International Movies, Music and Musicals",hong-kong,7.2,22.2793278,114.1628131
+s204,Movie,Kyaa Kool Hain Hum 3,Umesh Ghadge,India,8/27/2021,2016,TV-MA,124 min,"Comedies, International Movies",macau,6.5,22.1899448,113.5380454
+s205,Movie,Kyaa Super Kool Hain Hum,Sachin Yardi,India,8/27/2021,2012,TV-MA,136 min,"Comedies, International Movies",seul,4.7,37.5666791,126.9782914
+s206,Movie,Kyo Kii... Main Jhuth Nahin Bolta,David Dhawan,India,8/27/2021,2001,TV-14,150 min,"Comedies, International Movies, Sci-Fi and Fantasy",milan,3.4,45.4641943,9.1896346
+s207,Movie,"LSD: Love, Sex Aur Dhokha",Dibakar Banerjee,India,8/27/2021,2010,TV-MA,112 min,"Dramas, Independent Movies, International Movies",shenzhen,9.6,22.5445741,114.0545429
+s208,Movie,Mission Istaanbul: Darr Ke Aagey Jeet Hai,Apoorva Lakhia,India,8/27/2021,2008,TV-14,119 min,"Action and Adventure, International Movies, Music and Musicals",macau,4.3,22.1899448,113.5380454
+s209,Movie,Once Upon a Time in Mumbaai,Milan Luthria,India,8/27/2021,2010,TV-14,133 min,"Dramas, International Movies, Music and Musicals",dubai,7.7,25.2653471,55.2924914
+s2496,TV Show,Especial 20 años Fútbol de Primera,Not Given,Pakistan,5/20/2020,2020,TV-14,1 Season,"Docuseries, International TV Shows, Spanish-Language TV Shows",coimbra,5.8,40.2111931,-8.4294632
+s2569,TV Show,Hangar 1: The UFO Files,Not Given,Pakistan,5/2/2020,2015,TV-PG,1 Season,Docuseries,porto,7.6,41.1494512,-8.6107884
+s2570,TV Show,Hoarders,Not Given,Pakistan,5/2/2020,2020,TV-PG,1 Season,Reality TV,dubai,5.1,25.2653471,55.2924914
+s2575,TV Show,The Universe: Ancient Mysteries Solved,Not Given,Pakistan,5/2/2020,2015,TV-PG,1 Season,"Docuseries, Science and Nature TV",bangkok,9.4,13.7524938,100.4935089
+s2640,TV Show,دفعة القاهرة,Not Given,Pakistan,4/25/2020,2019,TV-14,1 Season,"International TV Shows, TV Dramas",dubai,8.5,25.2653471,55.2924914
+s2642,TV Show,DreamWorks Spooky Stories: Volume 2,Not Given,Pakistan,4/24/2020,2011,TV-PG,1 Season,"Kids' TV, TV Comedies",viena,4.9,48.2083537,16.3725042
+s210,Movie,Once Upon a Time in Mumbai Dobaara!,Milan Luthria,India,8/27/2021,2013,TV-14,142 min,"Dramas, International Movies, Music and Musicals",los-angeles,6.1,34.0536909,-118.242766
+s211,Movie,Ragini MMS,Pawan Kripalani,India,8/27/2021,2011,TV-MA,93 min,"Horror Movies, International Movies",milan,4.6,45.4641943,9.1896346
+s212,Movie,Ragini MMS 2,Bhushan Patel,India,8/27/2021,2014,TV-MA,113 min,"Horror Movies, International Movies",macau,3.0,22.1899448,113.5380454
+s223,TV Show,Clickbait,Brad Anderson,United States,8/25/2021,2021,TV-MA,1 Season,"Crime TV Shows, TV Dramas, TV Mysteries",istambul,4.6,41.0091982,28.9662187
+s2700,TV Show,The Circle France,Not Given,Pakistan,4/9/2020,2020,TV-MA,1 Season,"International TV Shows, Reality TV",roma,8.0,41.8933203,12.4829321
+s216,Movie,Shootout at Lokhandwala,Apoorva Lakhia,India,8/27/2021,2007,TV-MA,116 min,"Action and Adventure, Dramas, International Movies",barcelona,7.0,41.3828939,2.1774322
+s217,Movie,Shor In the City,"Raj Nidimoru, Krishna D.K.",India,8/27/2021,2011,TV-14,106 min,"Comedies, Dramas, Independent Movies",los-angeles,6.8,34.0536909,-118.242766
+s218,Movie,The Dirty Picture,Milan Luthria,India,8/27/2021,2011,TV-14,145 min,"Comedies, Dramas, International Movies",milan,4.7,45.4641943,9.1896346
+s2740,TV Show,Pokémon the Series,Not Given,Pakistan,4/1/2020,2019,TV-Y7,3 Seasons,"Anime Series, Kids' TV",madrid,7.7,40.4167047,-3.7035825
+s2773,TV Show,Wassup Man GO!,Not Given,Pakistan,3/27/2020,2020,TV-MA,1 Season,"International TV Shows, Korean TV Shows, Reality TV",new-york,8.0,40.7127281,-74.0060152
+s2786,TV Show,Barbie Dreamhouse Adventures: Go Team Roberts,Not Given,Pakistan,3/21/2020,2020,TV-Y,2 Seasons,Kids' TV,coimbra,7.6,40.2111931,-8.4294632
+s2788,TV Show,Archibald's Next Big Thing,Not Given,Pakistan,3/20/2020,2020,TV-Y7,2 Seasons,"Kids' TV, TV Comedies",madrid,4.6,40.4167047,-3.7035825
+s2858,TV Show,Calico Critters Mini Episodes Clover,Not Given,Pakistan,3/1/2020,2020,TV-Y,1 Season,Kids' TV,viena,6.9,48.2083537,16.3725042
+s2894,TV Show,Passion. Panache. Pep,Not Given,Pakistan,2/21/2020,2020,TV-G,1 Season,"International TV Shows, Reality TV",shenzhen,9.3,22.5445741,114.0545429
+s228,Movie,Really Love,Angel Kristi Williams,United States,8/25/2021,2020,TV-MA,95 min,"Dramas, Independent Movies, Romantic Movies",paris,4.2,48.8588897,2.3200410217200766
+s2943,TV Show,My Holo Love,Not Given,Pakistan,2/7/2020,2020,TV-14,1 Season,"International TV Shows, Korean TV Shows, Romantic TV Shows",madrid,6.6,40.4167047,-3.7035825
+s2992,TV Show,Rise of Empires: Ottoman,Not Given,Pakistan,1/24/2020,2020,TV-MA,1 Season,Docuseries,rio-de-janeiro,9.5,-22.9110137,-43.2093727
+s3057,TV Show,Chhota Bheem Kung Fu Dhamaka Series,Not Given,Pakistan,1/1/2020,2019,TV-Y7,1 Season,Kids' TV,shenzhen,9.1,22.5445741,114.0545429
+s3084,TV Show,Pucca: Love Recipe,Not Given,Pakistan,12/31/2019,2018,TV-Y7,1 Season,"Kids' TV, Korean TV Shows",dubai,4.1,25.2653471,55.2924914
+s3087,TV Show,The Degenerates,Not Given,Pakistan,12/31/2019,2019,TV-MA,2 Seasons,"Stand-Up Comedy and Talk Shows, TV Comedies",amsterdam,8.3,52.3727598,4.8936041
+s3200,TV Show,Space Jungle,Not Given,Pakistan,12/1/2019,2016,TV-Y,2 Seasons,"Kids' TV, Korean TV Shows, TV Comedies",roma,4.9,41.8933203,12.4829321
+s3217,TV Show,The Charming Stepmom,Not Given,Pakistan,11/29/2019,2019,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",coimbra,5.4,40.2111931,-8.4294632
+s3398,Movie,ChuChuTV Surprise Eggs Learning Videos (Hindi),Not Given,Pakistan,10/18/2019,2019,TV-Y,34 min,Children and Family Movies,rio-de-janeiro,5.4,-22.9110137,-43.2093727
+s3285,TV Show,Westside Story,Not Given,Pakistan,11/15/2019,2003,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Action and Adventure",shenzhen,9.2,22.5445741,114.0545429
+s3593,TV Show,Happy Jail,Not Given,Pakistan,8/14/2019,2019,TV-MA,1 Season,"Crime TV Shows, Docuseries",new-york,8.6,40.7127281,-74.0060152
+s3358,TV Show,Sleepless Society: Bedtime Wishes,Not Given,Pakistan,10/31/2019,2019,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Dramas",los-angeles,6.1,34.0536909,-118.242766
+s3362,TV Show,Tunnel,Not Given,Pakistan,10/30/2019,2019,TV-14,1 Season,"Crime TV Shows, International TV Shows, TV Dramas",shenzhen,7.5,22.5445741,114.0545429
+s3394,TV Show,"ChuChu TV Kids Songs, Learning Videos and Bedtime Stories",Not Given,Pakistan,10/18/2019,2019,TV-Y,1 Season,Kids' TV,paris,6.6,48.8588897,2.3200410217200766
+s3395,Movie,ChuChuTV Bedtime Stories and Moral Stories for Kids (English),Not Given,Pakistan,10/18/2019,2019,TV-Y,47 min,Children and Family Movies,new-york,6.6,40.7127281,-74.0060152
+s215,Movie,SAS: Rise of the Black Swan,Magnus Martens,Not Given,8/27/2021,2021,R,124 min,"Action and Adventure, International Movies",los-angeles,7.3,34.0536909,-118.242766
+s222,Movie,"Bob Ross: Happy Accidents, Betrayal and Greed",Joshua Rofé,Not Given,8/25/2021,2021,TV-14,93 min,Documentaries,shenzhen,7.6,22.5445741,114.0545429
+s224,TV Show,John of God: The Crimes of a Spiritual Healer,"Mauricio Dias, Tatiana Villela",Not Given,8/25/2021,2021,TV-MA,1 Season,"Crime TV Shows, Docuseries, International TV Shows",hong-kong,6.8,22.2793278,114.1628131
+s229,Movie,The November Man,Roger Donaldson,United States,8/25/2021,2014,R,108 min,Action and Adventure,frankfurt,5.7,50.1106444,8.6820917
+s230,Movie,The Old Ways,Christopher Alender,United States,8/25/2021,2020,TV-MA,90 min,Horror Movies,los-angeles,5.6,34.0536909,-118.242766
+s232,Movie,The Water Man,David Oyelowo,United States,8/25/2021,2021,PG,92 min,"Children and Family Movies, Dramas",paris,3.8,48.8588897,2.3200410217200766
+s231,Movie,The River Runner,Rush Sturges,Not Given,8/25/2021,2021,TV-MA,86 min,"Documentaries, Sports Movies",viena,4.0,48.2083537,16.3725042
+s234,Movie,Count Me In,Mark Lo,United Kingdom,8/24/2021,2021,TV-MA,82 min,"Documentaries, Music and Musicals",lisboa,7.2,38.7077507,-9.1365919
+s236,Movie,Untold: Caitlyn Jenner,Crystal Moselle,Not Given,8/24/2021,2021,TV-PG,70 min,"Documentaries, LGBTQ Movies, Sports Movies",london,8.8,51.5073219,-0.1276474
+s241,Movie,The Witcher: Nightmare of the Wolf,Han Kwang Il,Not Given,8/23/2021,2021,TV-MA,84 min,"Action and Adventure, Anime Features",bangkok,4.1,13.7524938,100.4935089
+s245,Movie,Gunshot,Karim El Shenawy,Not Given,8/20/2021,2018,TV-14,96 min,"Dramas, International Movies, Thrillers",xangai,4.0,31.2322758,121.4692071
+s269,Movie,Unroyal,Moses Inwang,Nigeria,8/15/2021,2020,TV-MA,97 min,"Dramas, International Movies",madrid,4.3,40.4167047,-3.7035825
+s3396,Movie,ChuChuTV Bedtime Stories and Moral Stories for Kids (Hindi),Not Given,Pakistan,10/18/2019,2019,TV-Y,56 min,Children and Family Movies,porto,9.4,41.1494512,-8.6107884
+s248,Movie,Sweet Girl,Brian Andrew Mendoza,United States,8/20/2021,2021,R,110 min,"Action and Adventure, Dramas",istambul,9.7,41.0091982,28.9662187
+s3397,Movie,ChuChuTV Surprise Eggs Learning Videos (English),Not Given,Pakistan,10/18/2019,2019,TV-Y,61 min,Children and Family Movies,frankfurt,5.6,50.1106444,8.6820917
+s3436,TV Show,Beyblade Burst Turbo,Not Given,Pakistan,10/10/2019,2018,TV-Y7,1 Season,"Anime Series, Kids' TV",frankfurt,5.9,50.1106444,8.6820917
+s3456,TV Show,Super Monsters,Not Given,Pakistan,10/4/2019,2019,TV-Y,3 Seasons,Kids' TV,madrid,9.1,40.4167047,-3.7035825
+s3470,Movie,Little Baby Bum: Go Buster,Not Given,Pakistan,10/1/2019,2019,TV-Y,58 min,Children and Family Movies,milan,5.7,45.4641943,9.1896346
+s3525,TV Show,Top Boy,Not Given,Pakistan,9/13/2019,2019,TV-MA,1 Season,"British TV Shows, Crime TV Shows, International TV Shows",coimbra,4.1,40.2111931,-8.4294632
+s3540,TV Show,Loo Loo Kids: Johny and Friends Musical Adventures,Not Given,Pakistan,9/1/2019,2016,TV-Y,1 Season,Kids' TV,viena,7.5,48.2083537,16.3725042
+s3563,TV Show,HERO MASK,Not Given,Pakistan,8/23/2019,2019,TV-14,2 Seasons,"Anime Series, Crime TV Shows, International TV Shows",new-york,5.1,40.7127281,-74.0060152
+s3672,TV Show,Extreme Engagement,Not Given,Pakistan,7/12/2019,2019,TV-MA,1 Season,"International TV Shows, Reality TV",hong-kong,4.4,22.2793278,114.1628131
+s3675,TV Show,PILI Fantasy: War of Dragons,Not Given,Pakistan,7/12/2019,2019,TV-14,1 Season,"International TV Shows, TV Action and Adventure, TV Sci-Fi and Fantasy",seul,7.5,37.5666791,126.9782914
+s247,Movie,Man in Love,Yin Chen-hao,Not Given,8/20/2021,2021,TV-MA,115 min,"Dramas, International Movies, Romantic Movies",roma,6.4,41.8933203,12.4829321
+s237,Movie,Boomika,Rathindran R Prasad,Not Given,8/23/2021,2021,TV-14,122 min,"Horror Movies, International Movies, Thrillers",macau,6.2,22.1899448,113.5380454
+s238,Movie,Boomika (Hindi),Rathindran R Prasad,Not Given,8/23/2021,2021,TV-14,122 min,"Horror Movies, International Movies, Thrillers",madrid,6.8,40.4167047,-3.7035825
+s239,Movie,Boomika (Malayalam),Rathindran R Prasad,Not Given,8/23/2021,2021,TV-14,122 min,"Horror Movies, International Movies, Thrillers",roma,7.6,41.8933203,12.4829321
+s240,Movie,Boomika (Telugu),Rathindran R Prasad,Not Given,8/23/2021,2021,TV-14,122 min,"Horror Movies, International Movies, Thrillers",coimbra,6.6,40.2111931,-8.4294632
+s252,Movie,Like Crazy,Drake Doremus,United States,8/19/2021,2011,PG-13,91 min,"Dramas, Independent Movies, Romantic Movies",new-york,4.1,40.7127281,-74.0060152
+s254,Movie,Bombay,Mani Ratnam,India,8/18/2021,1995,TV-14,135 min,"Dramas, International Movies, Romantic Movies",madrid,5.6,40.4167047,-3.7035825
+s260,Movie,Pahuna,Paakhi Tyrewala,India,8/18/2021,2018,TV-PG,82 min,"Comedies, Dramas, International Movies",london,6.0,51.5073219,-0.1276474
+s258,Movie,O Kadhal Kanmani,Mani Ratnam,India,8/18/2021,2015,TV-14,133 min,"Dramas, International Movies, Romantic Movies",paris,9.4,48.8588897,2.3200410217200766
+s262,Movie,The Secret Diary of an Exchange Student,Bruno Garotti,Brazil,8/18/2021,2021,TV-14,97 min,"Comedies, International Movies, Romantic Movies",los-angeles,3.3,34.0536909,-118.242766
+s265,Movie,Walk of Shame,Steve Brill,United States,8/16/2021,2014,R,94 min,"Comedies, Independent Movies",istambul,8.2,41.0091982,28.9662187
+s263,Movie,Untold: Deal With the Devil,Laura Brownson,United States,8/18/2021,2021,TV-MA,78 min,"Documentaries, LGBTQ Movies, Sports Movies",london,9.5,51.5073219,-0.1276474
+s3678,TV Show,True Tunes,Not Given,Pakistan,7/12/2019,2019,TV-Y,1 Season,Kids' TV,coimbra,6.9,40.2111931,-8.4294632
+s268,Movie,The Piano,Jane Campion,New Zealand,8/15/2021,1993,R,121 min,"Classic Movies, Dramas, Independent Movies",london,4.3,51.5073219,-0.1276474
+s458,Movie,Lift Like a Girl,Mayye Zayed,Egypt,7/15/2021,2021,TV-PG,93 min,"Documentaries, International Movies, Sports Movies",praga,5.1,50.0874654,14.4212535
+s3685,TV Show,Kakegurui,Not Given,Pakistan,7/4/2019,2019,TV-MA,2 Seasons,"International TV Shows, TV Dramas, TV Thrillers",madrid,6.1,40.4167047,-3.7035825
+s3749,TV Show,El desconocido,Not Given,Pakistan,6/14/2019,2019,TV-MA,2 Seasons,"Crime TV Shows, International TV Shows, Spanish-Language TV Shows",milan,8.3,45.4641943,9.1896346
+s3790,TV Show,Killer Ratings,Not Given,Pakistan,5/31/2019,2019,TV-MA,1 Season,"Crime TV Shows, Docuseries, International TV Shows",frankfurt,5.6,50.1106444,8.6820917
+s3825,TV Show,I Hear You,Not Given,Pakistan,5/15/2019,2019,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",new-york,7.2,40.7127281,-74.0060152
+s3844,TV Show,Away From Home,Not Given,Pakistan,5/8/2019,2015,TV-PG,1 Season,"International TV Shows, TV Dramas",praga,9.6,50.0874654,14.4212535
+s3845,TV Show,Bibik-Bibikku,Not Given,Pakistan,5/8/2019,2016,TV-PG,1 Season,"International TV Shows, TV Comedies",viena,6.0,48.2083537,16.3725042
+s3846,TV Show,Cinta 100KG,Not Given,Pakistan,5/8/2019,2016,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",seul,3.7,37.5666791,126.9782914
+s250,Movie,The Loud House Movie,Dave Needham,Not Given,8/20/2021,2021,TV-Y7,88 min,"Children and Family Movies, Comedies, Music and Musicals",xangai,8.6,31.2322758,121.4692071
+s251,Movie,A Faraway Land,Veronica Velasco,Not Given,8/19/2021,2020,TV-PG,102 min,"Dramas, International Movies, Romantic Movies",paris,9.0,48.8588897,2.3200410217200766
+s253,Movie,Black Island,Miguel Alexandre,Not Given,8/18/2021,2021,TV-MA,105 min,"International Movies, Thrillers",lisboa,8.6,38.7077507,-9.1365919
+s256,Movie,Memories of a Murderer: The Nilsen Tapes,Michael Harte,Not Given,8/18/2021,2021,TV-MA,86 min,"Documentaries, International Movies",frankfurt,5.8,50.1106444,8.6820917
+s259,Movie,Out of my league,Alice Filippi,Not Given,8/18/2021,2020,TV-MA,92 min,"Comedies, Dramas, International Movies",milan,3.8,45.4641943,9.1896346
+s257,Movie,Nneka The Pretty Serpent,Tosin Igho,Not Given,8/18/2021,2020,TV-14,140 min,"Dramas, International Movies",madrid,7.7,40.4167047,-3.7035825
+s3847,TV Show,Cinta Iris,Not Given,Pakistan,5/8/2019,2015,TV-PG,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",madrid,8.0,40.4167047,-3.7035825
+s271,Movie,Beckett,Ferdinando Cito Filomarino,Italy,8/13/2021,2021,TV-MA,110 min,Action and Adventure,bangkok,6.5,13.7524938,100.4935089
+s3848,TV Show,Cinta Si Wedding Planner,Not Given,Pakistan,5/8/2019,2015,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",macau,3.8,22.1899448,113.5380454
+s3849,TV Show,Cinta Teruna Kimchi,Not Given,Pakistan,5/8/2019,2016,TV-PG,1 Season,"International TV Shows, TV Dramas",viena,3.7,48.2083537,16.3725042
+s274,TV Show,Gone for Good,Juan Carlos Medina,France,8/13/2021,2021,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Dramas",bangkok,8.0,13.7524938,100.4935089
+s3850,TV Show,Secret of Success,Not Given,Pakistan,5/8/2019,2015,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",coimbra,4.3,40.2111931,-8.4294632
+s3851,TV Show,The Missing Menu,Not Given,Pakistan,5/8/2019,2016,TV-PG,1 Season,"International TV Shows, TV Dramas",rio-de-janeiro,6.9,-22.9110137,-43.2093727
+s277,TV Show,Valeria,Inma Torrente,Spain,8/13/2021,2021,TV-MA,2 Seasons,"International TV Shows, Romantic TV Shows, Spanish-Language TV Shows",london,8.4,51.5073219,-0.1276474
+s3852,TV Show,Unchained Fate,Not Given,Pakistan,5/8/2019,2016,TV-14,1 Season,"International TV Shows, TV Dramas, TV Sci-Fi and Fantasy",bangkok,6.4,13.7524938,100.4935089
+s279,Movie,Lokillo: Nothing's the Same,Julián Gaviria,Colombia,8/12/2021,2021,TV-MA,64 min,Stand-Up Comedy,frankfurt,9.0,50.1106444,8.6820917
+s280,Movie,Monster Hunter: Legends of the Guild,Steven Yamamoto,United States,8/12/2021,2021,TV-PG,59 min,"Action and Adventure, Anime Features, Children and Family Movies",rio-de-janeiro,8.8,-22.9110137,-43.2093727
+s3854,TV Show,I Have a Script,Not Given,Pakistan,5/7/2019,2019,TV-14,1 Season,"International TV Shows, TV Comedies, TV Dramas",rio-de-janeiro,6.2,-22.9110137,-43.2093727
+s282,Movie,Brother Jekwu,Charles Uwagbai,Nigeria,8/11/2021,2016,TV-14,101 min,"Comedies, International Movies",hong-kong,4.2,22.2793278,114.1628131
+s283,Movie,La diosa del asfalto,Julián Hernández,Mexico,8/11/2021,2020,TV-MA,127 min,"Dramas, Independent Movies, International Movies",shenzhen,5.8,22.5445741,114.0545429
+s284,Movie,Misha and the Wolves,Sam Hobkinson,Belgium,8/11/2021,2021,PG-13,90 min,"Documentaries, International Movies",istambul,6.3,41.0091982,28.9662187
+s285,Movie,The Kissing Booth 3,Vince Marcello,United Kingdom,8/11/2021,2021,TV-14,114 min,"Comedies, Romantic Movies",barcelona,5.6,41.3828939,2.1774322
+s286,Movie,The Railway Man,Jonathan Teplitzky,Switzerland,8/11/2021,2013,R,108 min,"Dramas, International Movies",macau,5.9,22.1899448,113.5380454
+s3857,TV Show,What If?,Not Given,Pakistan,5/7/2019,2019,TV-14,1 Season,"International TV Shows, TV Dramas",lisboa,8.7,38.7077507,-9.1365919
+s3910,Movie,Super Monsters Furever Friends,Not Given,Pakistan,4/16/2019,2019,TV-Y,59 min,Children and Family Movies,shenzhen,7.3,22.5445741,114.0545429
+s3954,TV Show,Kicko and Super Speedo,Not Given,Pakistan,4/1/2019,2018,TV-Y7,1 Season,"Kids' TV, TV Comedies",xangai,9.3,31.2322758,121.4692071
+s3969,TV Show,The Terminal,Not Given,Pakistan,3/29/2019,2018,TV-14,1 Season,"International TV Shows, TV Dramas",london,7.2,51.5073219,-0.1276474
+s3977,TV Show,The Eagle of El-Se'eed,Not Given,Pakistan,3/25/2019,2018,TV-14,1 Season,"Crime TV Shows, International TV Shows, TV Action and Adventure",new-york,3.4,40.7127281,-74.0060152
+s3985,TV Show,The 10 Sins,Not Given,Pakistan,3/22/2019,2018,TV-14,1 Season,"International TV Shows, TV Dramas",madrid,8.1,40.4167047,-3.7035825
+s3988,Movie,Antoine Griezmann: The Making of a Legend,Not Given,Pakistan,3/21/2019,2019,TV-PG,60 min,"Documentaries, International Movies, Sports Movies",bangkok,7.8,13.7524938,100.4935089
+s3997,TV Show,9-Feb,Not Given,Pakistan,3/20/2019,2018,TV-14,1 Season,"International TV Shows, TV Dramas",macau,3.8,22.1899448,113.5380454
+s4013,TV Show,My Pride,Not Given,Pakistan,3/15/2019,2018,TV-14,1 Season,"International TV Shows, TV Dramas",roma,4.6,41.8933203,12.4829321
+s4016,TV Show,The Disappearance of Madeleine McCann,Not Given,Pakistan,3/15/2019,2019,TV-14,1 Season,"Crime TV Shows, Docuseries",frankfurt,3.5,50.1106444,8.6820917
+s4036,TV Show,The Confrontation,Not Given,Pakistan,3/8/2019,2018,TV-PG,1 Season,"International TV Shows, TV Dramas",viena,6.6,48.2083537,16.3725042
+s4056,TV Show,Larva Island,Not Given,Pakistan,3/1/2019,2019,TV-Y7,2 Seasons,"Kids' TV, Korean TV Shows, TV Comedies",macau,8.9,22.1899448,113.5380454
+s4057,TV Show,Losers,Not Given,Pakistan,3/1/2019,2019,TV-MA,1 Season,Docuseries,amsterdam,7.9,52.3727598,4.8936041
+s4106,TV Show,Larry Charles' Dangerous World of Comedy,Not Given,Pakistan,2/15/2019,2019,TV-MA,1 Season,"Docuseries, TV Comedies",seul,3.6,37.5666791,126.9782914
+s4110,TV Show,The 43,Not Given,Pakistan,2/15/2019,2019,TV-MA,1 Season,"Crime TV Shows, Docuseries, International TV Shows",madrid,6.5,40.4167047,-3.7035825
+s4718,TV Show,Dinotrux Supercharged,Not Given,Pakistan,8/3/2018,2018,TV-Y7,3 Seasons,Kids' TV,bangkok,6.0,13.7524938,100.4935089
+s4150,TV Show,Paprika,Not Given,Pakistan,1/31/2019,2018,TV-Y,1 Season,Kids' TV,viena,9.0,48.2083537,16.3725042
+s291,Movie,Untold: Malice at the Palace,Floyd Russ,United States,8/10/2021,2021,TV-MA,70 min,"Documentaries, Sports Movies",macau,3.7,22.1899448,113.5380454
+s4172,TV Show,The Perfect Match,Not Given,Pakistan,1/25/2019,2017,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",hong-kong,3.7,22.2793278,114.1628131
+s293,Movie,Quartet,Dustin Hoffman,United Kingdom,8/8/2021,2012,PG-13,98 min,"Comedies, Dramas, Independent Movies",roma,9.1,41.8933203,12.4829321
+s294,Movie,Slay,Adze Ugah,South Africa,8/8/2021,2021,TV-MA,86 min,"Comedies, International Movies, Romantic Movies",porto,8.4,41.1494512,-8.6107884
+s296,Movie,The Paper Tigers,Quoc Bao Tran,United States,8/7/2021,2021,PG-13,111 min,"Action and Adventure, Comedies",london,3.4,51.5073219,-0.1276474
+s4180,TV Show,Memory Love,Not Given,Pakistan,1/18/2019,2017,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",hong-kong,8.4,22.2793278,114.1628131
+s298,TV Show,Navarasa,"Bejoy Nambiar, Priyadarshan, Karthik Narain, Vasanth Sai, Karthik Subbaraj, Arvind Swamy, Rathindran R Prasad, Sarjun, Gautham Vasudev Menon",India,8/6/2021,2021,TV-MA,1 Season,TV Shows,shenzhen,6.9,22.5445741,114.0545429
+s299,Movie,Quam's Money,Kayode Kasum,Nigeria,8/6/2021,2020,TV-MA,115 min,"Comedies, Dramas, International Movies",madrid,8.7,40.4167047,-3.7035825
+s300,Movie,The Swarm,Just Philippot,France,8/6/2021,2021,TV-14,102 min,"Horror Movies, Independent Movies, International Movies",viena,9.8,48.2083537,16.3725042
+s301,Movie,Vivo,"Kirk DeMicco, Brandon Jeffords",Canada,8/6/2021,2021,PG,100 min,"Children and Family Movies, Music and Musicals",new-york,8.7,40.7127281,-74.0060152
+s302,Movie,Chennai Express,Rohit Shetty,India,8/5/2021,2013,TV-14,135 min,"Action and Adventure, Comedies, International Movies",barcelona,6.4,41.3828939,2.1774322
+s303,Movie,City of God: 10 Years Later,"Cavi Borges, Luciano Vidigal",Brazil,8/5/2021,2013,TV-MA,69 min,"Documentaries, International Movies",madrid,5.9,40.4167047,-3.7035825
+s304,Movie,Esperando la carroza,Alejandro Doria,Argentina,8/5/2021,1985,TV-MA,95 min,"Comedies, Cult Movies, International Movies",rio-de-janeiro,6.6,-22.9110137,-43.2093727
+s305,Movie,Lady Boss: The Jackie Collins Story,Laura Fairrie,United Kingdom,8/5/2021,2021,TV-14,97 min,Documentaries,barcelona,3.9,41.3828939,2.1774322
+s306,Movie,Tango Feroz,Marcelo Piñeyro,Argentina,8/5/2021,1993,TV-MA,124 min,"Classic Movies, Dramas, International Movies",new-york,7.3,40.7127281,-74.0060152
+s4185,TV Show,Trigger Warning with Killer Mike,Not Given,Pakistan,1/18/2019,2019,TV-MA,1 Season,"Docuseries, Stand-Up Comedy and Talk Shows",bangkok,8.3,13.7524938,100.4935089
+s4200,TV Show,Back with the Ex,Not Given,Pakistan,1/11/2019,2018,TV-MA,1 Season,"International TV Shows, Reality TV, Romantic TV Shows",madrid,7.4,40.4167047,-3.7035825
+s4216,TV Show,See You in Time,Not Given,Pakistan,1/4/2019,2017,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",barcelona,3.6,41.3828939,2.1774322
+s4251,TV Show,Pioneers: First Women Filmmakersand,Not Given,Pakistan,12/30/2018,1925,TV-14,1 Season,TV Shows,coimbra,5.9,40.2111931,-8.4294632
+s4231,Movie,Bill Hicks: Reflections,Not Given,Pakistan,12/31/2018,2015,TV-MA,34 min,Documentaries,london,7.9,51.5073219,-0.1276474
+s4266,TV Show,Single Ladies Senior,Not Given,Pakistan,12/22/2018,2018,TV-MA,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",dubai,7.7,25.2653471,55.2924914
+s4306,TV Show,Inside the Real Narcos,Not Given,Pakistan,12/14/2018,2018,TV-MA,1 Season,"British TV Shows, Crime TV Shows, Docuseries",london,4.8,51.5073219,-0.1276474
+s4341,TV Show,Haunted House,Not Given,Pakistan,12/1/2018,2017,TV-G,1 Season,"Kids' TV, Korean TV Shows",coimbra,5.3,40.2111931,-8.4294632
+s4345,Movie,Oddbods: The Festive Menace,Not Given,Pakistan,12/1/2018,2018,TV-Y,23 min,Movies,macau,9.4,22.1899448,113.5380454
+s4372,TV Show,Kulipari: Dream Walker,Not Given,Pakistan,11/20/2018,2018,TV-Y7,1 Season,Kids' TV,rio-de-janeiro,5.5,-22.9110137,-43.2093727
+s307,Movie,'76,Izu Ojukwu,Nigeria,8/4/2021,2016,TV-PG,118 min,"Dramas, International Movies",london,4.8,51.5073219,-0.1276474
+s308,Movie,Aftermath,Peter Winther,United States,8/4/2021,2021,TV-MA,115 min,Horror Movies,praga,4.7,50.0874654,14.4212535
+s309,Movie,American Masters: Inventing David Geffen,Susan Lacy,United States,8/4/2021,2012,TV-MA,115 min,Movies,barcelona,5.4,41.3828939,2.1774322
+s4373,TV Show,Paap-O-Meter,Not Given,Pakistan,11/20/2018,2017,TV-Y7,1 Season,"Kids' TV, TV Comedies",seul,5.9,37.5666791,126.9782914
+s311,TV Show,Cocaine Cowboys: The Kings of Miami,Billy Corben,United States,8/4/2021,2021,TV-MA,1 Season,"Crime TV Shows, Docuseries",porto,4.8,41.1494512,-8.6107884
+s4390,TV Show,Beyblade Burst Evolution,Not Given,Pakistan,11/15/2018,2017,TV-Y,1 Season,"Anime Series, Kids' TV",frankfurt,3.7,50.1106444,8.6820917
+s4462,TV Show,The Great British Baking Show: The Beginnings,Not Given,Pakistan,11/1/2018,2012,TV-PG,1 Season,"British TV Shows, Reality TV",los-angeles,4.1,34.0536909,-118.242766
+s4498,Movie,Oddbods: Party Monsters,Not Given,Pakistan,10/19/2018,2018,TV-Y,23 min,Movies,praga,3.1,50.0874654,14.4212535
+s315,Movie,Heavy,James Mangold,United States,8/3/2021,1995,R,104 min,"Dramas, Independent Movies, Romantic Movies",madrid,7.4,40.4167047,-3.7035825
+s316,Movie,Ije: The Journey,Chineze Anyaene,United States,8/3/2021,2010,TV-MA,106 min,"Dramas, International Movies",viena,8.3,48.2083537,16.3725042
+s317,TV Show,Office Girls,Hsu Fu-chun,Taiwan,8/3/2021,2011,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",amsterdam,3.9,52.3727598,4.8936041
+s318,Movie,Pray Away,Kristine Stolakis,United States,8/3/2021,2021,PG-13,102 min,"Documentaries, LGBTQ Movies",istambul,4.2,41.0091982,28.9662187
+s4512,TV Show,Edgar Rice Burroughs' Tarzan and Jane,Not Given,Pakistan,10/12/2018,2018,TV-Y7,2 Seasons,"Crime TV Shows, Kids' TV",london,4.8,51.5073219,-0.1276474
+s4521,TV Show,Ordinary Heroes,Not Given,Pakistan,10/11/2018,2018,TV-MA,1 Season,"Crime TV Shows, International TV Shows, TV Dramas",istambul,8.6,41.0091982,28.9662187
+s4522,TV Show,Salt Fat Acid Heat,Not Given,Pakistan,10/11/2018,2018,TV-PG,1 Season,Docuseries,lisboa,3.1,38.7077507,-9.1365919
+s4530,TV Show,Dancing Queen,Not Given,Pakistan,10/5/2018,2018,TV-14,1 Season,Reality TV,roma,7.4,41.8933203,12.4829321
+s4537,TV Show,Violet Evergarden: Special,Not Given,Pakistan,10/4/2018,2018,TV-PG,1 Season,"Anime Series, International TV Shows, Romantic TV Shows",hong-kong,9.9,22.2793278,114.1628131
+s4628,TV Show,Battlefish,Not Given,Pakistan,9/21/2018,2018,TV-MA,1 Season,"Reality TV, Science and Nature TV, TV Action and Adventure",london,3.6,51.5073219,-0.1276474
+s326,Movie,Beethoven,Brian Levant,United States,8/1/2021,1992,PG,87 min,"Children and Family Movies, Comedies",seul,9.8,37.5666791,126.9782914
+s4641,TV Show,Super Monsters Monster Party,Not Given,Pakistan,9/14/2018,2018,TV-Y,1 Season,Kids' TV,istambul,7.9,41.0091982,28.9662187
+s4649,TV Show,If I were an Animal,Not Given,Pakistan,9/11/2018,2018,TV-G,1 Season,"Docuseries, Kids' TV, Science and Nature TV",barcelona,5.8,41.3828939,2.1774322
+s4651,TV Show,Show Me the Money,Not Given,Pakistan,9/9/2018,2004,TV-14,2 Seasons,"International TV Shows, TV Comedies",frankfurt,3.1,50.1106444,8.6820917
+s4711,TV Show,Pretty Man,Not Given,Pakistan,8/8/2018,2018,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",new-york,9.2,40.7127281,-74.0060152
+s4768,TV Show,Camarón Revolution,Not Given,Pakistan,7/18/2018,2018,TV-14,1 Season,"Docuseries, International TV Shows, Spanish-Language TV Shows",roma,9.1,41.8933203,12.4829321
+s4893,Movie,Pocoyo and Cars,Not Given,Pakistan,5/1/2018,2015,TV-Y,19 min,Movies,istambul,3.2,41.0091982,28.9662187
+s4895,Movie,Pocoyo Carnival,Not Given,Pakistan,5/1/2018,2015,TV-Y,22 min,Movies,seul,9.7,37.5666791,126.9782914
+s4897,Movie,Pocoyo Halloween: Spooky Movies,Not Given,Pakistan,5/1/2018,2014,TV-Y,22 min,Movies,hong-kong,5.0,22.2793278,114.1628131
+s4901,TV Show,Spiritual House,Not Given,Pakistan,5/1/2018,2017,TV-PG,1 Season,"International TV Shows, Stand-Up Comedy and Talk Shows",frankfurt,4.8,50.1106444,8.6820917
+s4909,TV Show,Goodnight DJ 1,Not Given,Pakistan,4/27/2018,2016,TV-14,2 Seasons,"International TV Shows, TV Dramas, TV Horror",hong-kong,5.1,22.2793278,114.1628131
+s4911,TV Show,Moving On,Not Given,Pakistan,4/27/2018,2016,TV-PG,1 Season,"International TV Shows, TV Dramas",coimbra,4.9,40.2111931,-8.4294632
+s4914,TV Show,Trio and a Bed,Not Given,Pakistan,4/27/2018,2016,TV-PG,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",frankfurt,9.0,50.1106444,8.6820917
+s4915,TV Show,海的儿子,Not Given,Pakistan,4/27/2018,2016,TV-14,1 Season,"International TV Shows, TV Dramas",london,8.9,51.5073219,-0.1276474
+s5394,TV Show,Breakout,Not Given,Pakistan,7/1/2017,2010,TV-14,1 Season,"International TV Shows, TV Dramas",viena,7.1,48.2083537,16.3725042
+s5090,TV Show,Tundukkan Playboy Itu,Not Given,Pakistan,1/8/2018,2016,TV-PG,1 Season,"International TV Shows, Romantic TV Shows, TV Comedies",praga,9.9,50.0874654,14.4212535
+s5106,TV Show,Wadi,Not Given,Pakistan,12/29/2017,2015,TV-14,1 Season,"International TV Shows, TV Dramas",dubai,7.7,25.2653471,55.2924914
+s5110,TV Show,Part-Time Idol,Not Given,Pakistan,12/25/2017,2017,TV-14,1 Season,"International TV Shows, Korean TV Shows, TV Comedies",paris,6.3,48.8588897,2.3200410217200766
+s5121,TV Show,Cheuk Wan-Chi: Two Night Stand,Not Given,Pakistan,12/15/2017,2015,TV-MA,1 Season,"International TV Shows, Stand-Up Comedy and Talk Shows, TV Comedies",paris,5.8,48.8588897,2.3200410217200766
+s327,Movie,Beethoven's 2nd,Rod Daniel,United States,8/1/2021,1993,PG,88 min,"Children and Family Movies, Comedies",new-york,9.2,40.7127281,-74.0060152
+s328,Movie,Beowulf,Robert Zemeckis,United States,8/1/2021,2007,PG-13,114 min,"Action and Adventure, Sci-Fi and Fantasy",seul,6.5,37.5666791,126.9782914
+s329,Movie,Boyka: Undisputed,Todor Chapkanov,Bulgaria,8/1/2021,2016,R,90 min,Action and Adventure,madrid,4.4,40.4167047,-3.7035825
+s330,Movie,Catch Me If You Can,Steven Spielberg,United States,8/1/2021,2002,PG-13,142 min,Dramas,porto,4.9,41.1494512,-8.6107884
+s331,Movie,Cloudy with a Chance of Meatballs,"Phil Lord, Christopher Miller",United States,8/1/2021,2009,PG,90 min,"Children and Family Movies, Comedies, Sci-Fi and Fantasy",new-york,3.9,40.7127281,-74.0060152
+s5129,TV Show,Dawai Asmara,Not Given,Pakistan,12/11/2017,2016,TV-14,1 Season,"International TV Shows, TV Dramas",rio-de-janeiro,9.4,-22.9110137,-43.2093727
+s333,Movie,Deep Blue Sea,Renny Harlin,United States,8/1/2021,1999,R,105 min,"Action and Adventure, Horror Movies, Sci-Fi and Fantasy",los-angeles,5.3,34.0536909,-118.242766
+s334,Movie,Ferris Bueller's Day Off,John Hughes,United States,8/1/2021,1986,PG-13,103 min,"Classic Movies, Comedies, Cult Movies",coimbra,6.9,40.2111931,-8.4294632
+s335,Movie,Five Feet Apart,Justin Baldoni,United States,8/1/2021,2019,PG-13,116 min,"Dramas, Romantic Movies",lisboa,3.4,38.7077507,-9.1365919
+s336,Movie,Freedomland,Joe Roth,United States,8/1/2021,2006,R,113 min,"Dramas, Thrillers",seul,9.6,37.5666791,126.9782914
+s5146,TV Show,Padamu Aku Bersujud,Not Given,Pakistan,12/1/2017,2015,TV-14,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",istambul,8.2,41.0091982,28.9662187
+s338,Movie,Good Luck Chuck,Mark Helfrich,United States,8/1/2021,2007,R,99 min,"Comedies, Romantic Movies",los-angeles,5.1,34.0536909,-118.242766
+s5156,TV Show,Trailer Park Boys: Out of the Park: USA,Not Given,Pakistan,11/24/2017,2017,TV-MA,1 Season,"International TV Shows, TV Comedies",los-angeles,7.5,34.0536909,-118.242766
+s341,Movie,Inception,Christopher Nolan,United States,8/1/2021,2010,PG-13,148 min,"Action and Adventure, Sci-Fi and Fantasy, Thrillers",seul,6.8,37.5666791,126.9782914
+s342,Movie,Magnolia,Paul Thomas Anderson,United States,8/1/2021,1999,R,189 min,"Dramas, Independent Movies",new-york,6.0,40.7127281,-74.0060152
+s343,Movie,Major Payne,Nick Castle,United States,8/1/2021,1995,PG-13,97 min,Comedies,madrid,7.1,40.4167047,-3.7035825
+s344,Movie,My Girl,Howard Zieff,United States,8/1/2021,1991,PG-13,102 min,Dramas,amsterdam,9.7,52.3727598,4.8936041
+s5292,Movie,"Alias JJ, la celebridad del mal",Not Given,Pakistan,9/1/2017,2017,TV-MA,54 min,"Documentaries, International Movies",bangkok,5.8,13.7524938,100.4935089
+s5192,TV Show,The Family Court,Not Given,Pakistan,11/1/2017,2010,TV-MA,1 Season,"International TV Shows, TV Dramas",new-york,7.6,40.7127281,-74.0060152
+s5193,TV Show,The Golden Path,Not Given,Pakistan,11/1/2017,2007,TV-MA,1 Season,"International TV Shows, TV Dramas",milan,9.3,45.4641943,9.1896346
+s5194,TV Show,The Little Nyonya,Not Given,Pakistan,11/1/2017,2009,TV-14,1 Season,"International TV Shows, TV Dramas",frankfurt,7.6,50.1106444,8.6820917
+s5195,TV Show,The Truth,Not Given,Pakistan,11/1/2017,2008,TV-14,1 Season,"Crime TV Shows, International TV Shows, TV Action and Adventure",bangkok,3.1,13.7524938,100.4935089
+s5216,TV Show,In Laws,Not Given,Pakistan,10/16/2017,2016,TV-PG,1 Season,"International TV Shows, Romantic TV Shows, TV Dramas",new-york,10.0,40.7127281,-74.0060152
+s345,Movie,My Girl 2,Howard Zieff,United States,8/1/2021,1994,PG,99 min,"Children and Family Movies, Comedies, Dramas",new-york,3.7,40.7127281,-74.0060152
+s346,Movie,Open Season: Scared Silly,David Feiss,United States,8/1/2021,2015,PG,85 min,"Children and Family Movies, Comedies",viena,7.3,48.2083537,16.3725042
+s347,Movie,Pineapple Express,David Gordon Green,United States,8/1/2021,2008,R,112 min,"Action and Adventure, Comedies",porto,7.1,41.1494512,-8.6107884
+s348,Movie,Planet 51,Jorge Blanco,Spain,8/1/2021,2009,PG,91 min,"Children and Family Movies, Comedies, Sci-Fi and Fantasy",paris,3.2,48.8588897,2.3200410217200766
+s349,Movie,Poms,Zara Hayes,United Kingdom,8/1/2021,2019,PG-13,91 min,Comedies,amsterdam,7.4,52.3727598,4.8936041
+s350,Movie,Seabiscuit,Gary Ross,United States,8/1/2021,2003,PG-13,141 min,"Dramas, Sports Movies",los-angeles,7.2,34.0536909,-118.242766
+s351,Movie,Space Cowboys,Clint Eastwood,United States,8/1/2021,2000,PG-13,130 min,"Action and Adventure, Dramas, Sci-Fi and Fantasy",shenzhen,6.7,22.5445741,114.0545429
+s352,Movie,Team America: World Police,Trey Parker,United States,8/1/2021,2004,R,98 min,"Action and Adventure, Comedies, Cult Movies",viena,6.3,48.2083537,16.3725042
+s353,Movie,The Edge of Seventeen,Kelly Fremon Craig,United States,8/1/2021,2016,R,105 min,"Comedies, Dramas",milan,9.4,45.4641943,9.1896346
+s354,Movie,The Haunting in Connecticut 2: Ghosts of Georgia,Tom Elkins,United States,8/1/2021,2013,R,101 min,Horror Movies,dubai,7.8,25.2653471,55.2924914
+s355,Movie,The Last Boy Scout,Tony Scott,United States,8/1/2021,1991,R,105 min,"Action and Adventure, Comedies",bangkok,7.5,13.7524938,100.4935089
+s356,Movie,The Lincoln Lawyer,Brad Furman,United States,8/1/2021,2011,R,118 min,"Dramas, Thrillers",porto,6.9,41.1494512,-8.6107884

@@ -8,58 +8,77 @@ from entities.team import Team
 from entities.player import Player
 
 
+import pandas as pd
+
 class CSVtoXMLConverter:
 
     def __init__(self, path):
+        self.path = path
         self._reader = CSVReader(path)
+        self.filmes=self._reader.read_csv_file()
+        self.movies = ET.Element("movies")
+        self.dataset = pd.DataFrame()
+        self.series = pd.Series()
 
-    def to_xml(self):
-        # read countries
-        countries = self._reader.read_entities(
-            attr="nationality",
-            builder=lambda row: Country(row["nationality"])
-        )
+        self.read_csv()
+        self.create_types_tag()
+        self.create_release_year_tag()
+        self.create_country_tag()
+        self.create_movie_tag()
 
-        # read teams
-        teams = self._reader.read_entities(
-            attr="Current Club",
-            builder=lambda row: Team(row["Current Club"])
-        )
+    def read_csv(self) -> None:
 
-        # read players
+        self.dataset = pd.read_csv(self.path)
 
-        def after_creating_player(player, row):
-            # add the player to the appropriate team
-            teams[row["Current Club"]].add_player(player)
+    def create_types_tag(self) -> None:
+        self.series = self.dataset.groupby(["type"])["type"].count()
 
-        self._reader.read_entities(
-            attr="full_name",
-            builder=lambda row: Player(
-                name=row["full_name"],
-                age=row["age"],
-                country=countries[row["nationality"]]
-            ),
-            after_create=after_creating_player
-        )
+        for campo in self.series.keys():
+            tipo = ET.Element("type", attrib={"type": f"{campo}"})
+            self.movies.append(tipo)
 
-        # generate the final xml
-        root_el = ET.Element("Football")
+    def create_release_year_tag(self) -> None:
+        self.series = self.dataset.groupby(["release_year", "type"])["type"].count()
 
-        teams_el = ET.Element("Teams")
-        for team in teams.values():
-            teams_el.append(team.to_xml())
+        for campo in self.series.keys():
+            type = self.movies.findall(f".//type[@type='{campo[1]}']")
+            year = ET.Element("release_year", attrib={"release_year": f"{campo[0]}"})
+            type[0].append(year)
 
-        countries_el = ET.Element("Countries")
-        for country in countries.values():
-            countries_el.append(country.to_xml())
+    def create_country_tag(self) -> None:
+        self.series = self.dataset.groupby(["release_year", "type", "country"])[
+            "type"
+        ].count()
 
-        root_el.append(teams_el)
-        root_el.append(countries_el)
+        for campo in self.series.keys():
+            parent = self.movies.findall(
+                f".//type[@type='{campo[1]}']/release_year[@release_year='{campo[0]}']"
+            )
+            country = ET.Element("country", attrib={"country": f"{campo[2]}"})
+            parent[0].append(country)
 
-        return root_el
+    def create_movie_tag(self) -> None:
+        for filme in self.filmes:
+            parent = self.movies.findall(
+                f".//type[@type='{filme['type']}']/release_year[@release_year='{filme['release_year']}']/country[@country='{filme['country']}']"
+            )
+            movie = ET.Element("movie", attrib={"id": f'{filme["show_id"]}'})
+            ET.SubElement(
+                movie,
+                "city",
+                attrib={"lat": f'{filme["lat"]}', "lon": f'{filme["lon"]}'},
+            ).text = f'{filme["city"]}'
+            ET.SubElement(movie, "listed_in").text = f'{filme["listed_in"]}'
+            ET.SubElement(movie, "title").text = f'{filme["title"]}'
+            ET.SubElement(movie, "rating").text = f'{filme["rating"]}'
+            ET.SubElement(movie, "score").text = f'{filme["score"]}'
+            ET.SubElement(movie, "duration").text = f'{filme["duration"]}'
+            ET.SubElement(movie, "director").text = f'{filme["director"]}'
+
+            parent[0].append(movie)
 
     def to_xml_str(self):
-        xml_str = ET.tostring(self.to_xml(), encoding='utf8', method='xml').decode()
+        xml_str = ET.tostring(self.movies, encoding='utf8', method='xml').decode()
         dom = md.parseString(xml_str)
         return dom.toprettyxml()
 
