@@ -7,6 +7,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler, FileCreatedEvent
 
 from utils.to_xml_converter import CSVtoXMLConverter
+from pgxml.Pgxml import Pgxml
 
 def get_csv_files_in_input_folder():
     return [os.path.join(dp, f) for dp, dn, filenames in os.walk(CSV_INPUT_PATH) for f in filenames if
@@ -19,6 +20,18 @@ def convert_csv_to_xml(in_path, out_path):
     converter = CSVtoXMLConverter(in_path)
     file = open(out_path, "w")
     file.write(converter.to_xml_str())
+    insert_xml_file_to_pgxml(out_path)
+
+def insert_xml_file_to_pgxml(out_path,) -> None:
+    pgxml = Pgxml()
+    pgxml.connection_db()
+
+    with open(out_path, "r") as xml_file:
+        xml = xml_file.read()
+        pgxml.insert_xml_to_db("xml", xml)
+
+    pgxml.close_connection()
+
 
 class CSVHandler(FileSystemEventHandler):
     def __init__(self, input_path, output_path):
@@ -47,6 +60,7 @@ class CSVHandler(FileSystemEventHandler):
         convert_csv_to_xml(csv_path, xml_path)
         print(f"new xml file generated: '{xml_path}'")
 
+
         # !TODO: we should store the XML document into the imported_documents table
 
     async def get_converted_files(self):
@@ -62,6 +76,7 @@ if __name__ == "__main__":
 
     CSV_INPUT_PATH = "/csv"
     XML_OUTPUT_PATH = "/shared/output"
+
 
     # create the file observer
     observer = Observer()
