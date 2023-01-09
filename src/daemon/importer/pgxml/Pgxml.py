@@ -11,8 +11,8 @@ class Pgxml:
             self.connection = psycopg2.connect(
                 user="is",
                 password="is",
-                host="localhost",
-                port="10001",
+                host="db-xml",
+                port="5432",
                 database="is",
             )
 

@@ -22,13 +22,13 @@ def convert_csv_to_xml(in_path, out_path):
     file.write(converter.to_xml_str())
     insert_xml_file_to_pgxml(out_path)
 
-def insert_xml_file_to_pgxml(out_path,) -> None:
+def insert_xml_file_to_pgxml(out_path) -> None:
     pgxml = Pgxml()
     pgxml.connection_db()
 
     with open(out_path, "r") as xml_file:
         xml = xml_file.read()
-        pgxml.insert_xml_to_db("xml", xml)
+        pgxml.insert_xml_to_db(out_path, xml)
 
     pgxml.close_connection()
 
