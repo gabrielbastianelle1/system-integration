@@ -37,6 +37,8 @@ class CSVHandler(FileSystemEventHandler):
     def __init__(self, input_path, output_path):
         self._output_path = output_path
         self._input_path = input_path
+        self.pgxml = Pgxml()
+        self.pgxml.connection_db()
 
         # generate file creation events for existing files
         for file in [os.path.join(dp, f) for dp, dn, filenames in os.walk(input_path) for f in filenames]:
@@ -47,8 +49,10 @@ class CSVHandler(FileSystemEventHandler):
     async def convert_csv(self, csv_path):
         # here we avoid converting the same file again
         # !TODO: check converted files in the database
-        if csv_path in await self.get_converted_files():
-            return
+
+        for src in await self.get_converted_files():
+            if csv_path == src[0]:
+                return
 
         print(f"new file to convert: '{csv_path}'")
 
@@ -58,6 +62,7 @@ class CSVHandler(FileSystemEventHandler):
         # we do the conversion
         # !TODO: once the conversion is done, we should updated the converted_documents tables
         convert_csv_to_xml(csv_path, xml_path)
+        self.pgxml.insert_csv_to_converted_documents(csv_path)
         print(f"new xml file generated: '{xml_path}'")
 
 
@@ -65,7 +70,8 @@ class CSVHandler(FileSystemEventHandler):
 
     async def get_converted_files(self):
         # !TODO: you should retrieve from the database the files that were already converted before
-        return []
+        return self.pgxml.get_converted_files()
+
 
     def on_created(self, event):
         if not event.is_directory and event.src_path.endswith(".csv"):
