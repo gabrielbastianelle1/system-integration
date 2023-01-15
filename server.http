@@ -1,0 +1,8 @@
+GET http://localhost:20001/api/cities/
+
+###
+GET http://localhost:20001/api/movies/
+
+
+###
+GET http://localhost:20001/api/cities/12

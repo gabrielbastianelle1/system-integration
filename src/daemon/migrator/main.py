@@ -1,6 +1,7 @@
 import sys
 import time
 import requests
+from requests.adapters import HTTPAdapter, Retry
 import numpy as np
 
 
@@ -66,57 +67,25 @@ def remove_special_characters(value: str) -> str:
         return normal_string
 
 def insert_cities_to_rel_database() -> None:
-    for city in cities:
-        query = f"insert into cities(name,geom) values ('{city[0]}', ST_GeomFromText('POINT({city[1]}  {city[2]})', 4326))"
-        rel_cursor.execute(query)
 
-        query = f"select * from cities where name = '{city[0]}'"
-        rel_cursor.execute(query)
-        cities_inserted.append(rel_cursor.fetchone())
-        db_dst.commit()
+    for city in cities:
+
+        try:
+            url = "http://api-entities:8080/api/cities/"
+            response_city=requests.post(url, json=city, verify=False)
+            print(response_city.text)
+        except Exception as e:
+            print(e)
 
 def insert_movies_to_rel_database() -> None:
     for movie in movies:
-        query = f"insert into movies (listed_in, title, rating, director, score, duration, city_id) values ('{movie[5]}', '{movie[0]}', '{movie[3]}', '{movie[6]}', {movie[1]}, '{movie[2]}', '{get_city_id(movie[4])}')"
-        rel_cursor.execute(query)
+        try:
+            url = "http://api-entities:8080/api/movies/"
+            response_movie=requests.post(url, json=movie, verify=False)
+            print(response_movie.text)
+        except Exception as e:
+            print(e)
 
-        query = f"select * from movies where title = '{movie[0]}'"
-        rel_cursor.execute(query)
-        movies_inserted.append(rel_cursor.fetchone())
-        db_dst.commit()
-
-def send_movies_to_api_entities() -> None:
-    for movie in movies_inserted:
-        data = {
-            'id': movie[0],
-            'listed_in': movie[1],
-            'title': movie[2],
-            'rating': movie[3],
-            'director': movie[4],
-            'score': movie[5],
-            'duration': movie[6],
-            'city_id': movie[7]
-        }
-
-        url = "http://api-entities:8080/api/movies/"
-        response_city=requests.post(url, json=data)
-
-def send_cities_to_api_entities() -> None:
-    for city in cities_inserted:
-        data = {
-            'id': city[0],
-            'name': city[1],
-            'geom': city[2]
-        }
-
-        url = "http://api-entities:8080/api/cities/"
-        response_city=requests.post(url, json=data)
-
-
-def get_city_id(city_name: str) -> str:
-    for city in cities_inserted:
-        if(city[1] == city_name):
-            return city[0]
 
 
 if __name__ == "__main__":
@@ -152,7 +121,7 @@ if __name__ == "__main__":
 
         if(len(imported_documents)==0):
             imported_documents=xml_cursor.fetchall()
-            print(imported_documents)
+            #print(imported_documents)
 
         if(not np.array_equal(imported_documents, xml_cursor.fetchall())):
 
@@ -162,14 +131,9 @@ if __name__ == "__main__":
             cities=clean_duplicated_cities(cities)
 
             # !TODO: 3- Execute INSERT queries in the destination db
-            cities_inserted=[]
-            movies_inserted=[]
 
             insert_cities_to_rel_database()
-            send_cities_to_api_entities()
-
             insert_movies_to_rel_database()
-            send_movies_to_api_entities()
         else:
             print('nenhuma mudança')
 
