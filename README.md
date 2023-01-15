@@ -22,7 +22,7 @@ docker-compose down
 # stops all the containers
 docker-compose stop
 
-# restarts all the containers 
+# restarts all the containers
 docker-compose start
 ```
 
@@ -53,7 +53,7 @@ docker-compose start
 ```
 docker-compose run <name of the container that uses this image> /bin/bash
 ```
-* You can also run directly a Python script as follows. 
+* You can also run directly a Python script as follows.
 ```
 docker-compose run --rm <name of the container that uses this image> python db-access/main.py
 ```
@@ -76,19 +76,19 @@ Database where the relational data is stored, namely the entities of the system.
 Daemon-type application, which runs in the background. The application must constantly look for new CSV files in the Docker csv volume and start converting to XML and then migrating to the pg-xml database.
 
 ##### *migrater* #####
-Daemon-type application, which runs in the background and is started every 5 mins (configurable). The application will check if there are new files in the imported_documents table of the pg-xml and perform the migration of the XML data to the pg-rel database tables, using the api-entities API.
+Daemon-type application, which runs in the background and is started every 5 mins (configurable). The app lication will check if there are new files in the imported_documents table of the pg-xml and perform the migration of the XML data to the pg-rel database tables, using the api-entities API.
 
 ##### *update-gis* #####
 Daemon-type application, which runs in the background and is started every 5 mins (configurable). The application will select up to 100 entities from the pg-rel database for which it is necessary to update or obtain GPS coordinates. As with TP1, the coordinates can be obtained using Nominatim's Search API, with the already existing HTTP Requests module in Python.
 
 ##### *api-entities* #####
-Web REST API in Django that allows performing CRUD of all entities. 
+Web REST API in Django that allows performing CRUD of all entities.
 
 ##### *api-gis* #####
 Web REST API in Django that allows obtaining geographical data by region.
 
 ##### *api-proc* #####
-Web REST API in Django that allows for reporting. Obtains the data from the RPC Server. 
+Web REST API in Django that allows for reporting. Obtains the data from the RPC Server.
 
 ##### *api-graphql* #####
 Web GraphQL API that allows for reporting. Obtains the data from the Entities API.
@@ -103,7 +103,7 @@ Web frontend application based in Leaflet that allows consulting the entities in
 Web frontend application that allows consulting the reports of the system.
 
 ##### *rpc-server* #####
-RPC application that does reporting over the XML database. 
+RPC application that does reporting over the XML database.
 
 #### Volumes ####
 
