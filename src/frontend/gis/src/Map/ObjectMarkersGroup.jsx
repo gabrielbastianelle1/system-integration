@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {LayerGroup, useMap} from 'react-leaflet';
-import { getAllCities, getAllMoviesName } from '../services/service.data';
+import { getAllCities, getAllMoviesName, getAllCitiesRegion } from '../services/service.data';
 import {ObjectMarker} from "./ObjectMarker";
 
 
@@ -22,11 +22,13 @@ function changeCoordinates(city){
 }
 
 
-function ObjectMarkersGroup() {
+function ObjectMarkersGroup({options}) {
 
     const map = useMap();
     const [geom, setGeom] = useState(undefined);
     const [bounds, setBounds] = useState(map.getBounds());
+
+
 
     /**
      * Setup the event to update the bounds automatically
@@ -43,34 +45,65 @@ function ObjectMarkersGroup() {
     }, [])
 
     useEffect(() => {
-
-        getAllCities()
-            .then((response) => {
-                let data = []
-                response.data.map((city) => {
-                    city = changetypeFromArrayToObject(city)
-                    city = addImageToProperties(city)
-                    city = changeCoordinates(city)
-                    data.push(city)
+        console.log('entrei')
+        if (options.region === 'world') {
+            getAllCities()
+                .then((response) => {
+                    let data = []
+                    response.data.map((city) => {
+                        city = changetypeFromArrayToObject(city)
+                        city = addImageToProperties(city)
+                        city = changeCoordinates(city)
+                        data.push(city)
+                    })
+                    return data
                 })
-                return data
-            })
-            .then((data) => {
-                data.map((value) => {
-                    let id = value.properties.id
-                    value.properties.movies = []
-                    getAllMoviesName({id})
-                        .then((response) => {
-                            response.data.map((movie) => {
-                                value.properties.movies.push(movie[0])
+                .then((data) => {
+                    data.map((value) => {
+                        let id = value.properties.id
+                        value.properties.movies = []
+                        getAllMoviesName({id})
+                            .then((response) => {
+                                response.data.map((movie) => {
+                                    value.properties.movies.push(movie[0])
+                                })
                             })
-                        })
 
+                    })
+                    setGeom(data)
                 })
-                setGeom(data)
-            })
-            .catch(error => console.log(error))
-    },[])
+                .catch(error => console.log(error))
+        }
+        else{
+            getAllCitiesRegion(options.neLat, options.neLng, options.swLat, options.swLng)
+                .then((response) => {
+                    let data = []
+                    response.data.map((city) => {
+                        city = changetypeFromArrayToObject(city)
+                        city = addImageToProperties(city)
+                        city = changeCoordinates(city)
+                        data.push(city)
+                    })
+                    return data
+                })
+                .then((data) => {
+                    data.map((value) => {
+                        let id = value.properties.id
+                        value.properties.movies = []
+                        getAllMoviesName({id})
+                            .then((response) => {
+                                response.data.map((movie) => {
+                                    value.properties.movies.push(movie[0])
+                                })
+                            })
+
+                    })
+                    setGeom(data)
+                })
+                .catch(error => console.log(error))
+        }
+
+    },[options])
 
     if (geom === undefined) {
         return (
@@ -79,11 +112,13 @@ function ObjectMarkersGroup() {
     }
 
     return (
-        <LayerGroup>
-            {
-                geom.map(geoJSON => <ObjectMarker key={geoJSON.properties.id} geoJSON={geoJSON}/>)
-            }
-        </LayerGroup>
+        <>
+            <LayerGroup>
+                {
+                    geom.map(geoJSON => <ObjectMarker key={geoJSON.properties.id} geoJSON={geoJSON}/>)
+                }
+            </LayerGroup>
+        </>
     );
 }
 
