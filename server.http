@@ -1,8 +1,14 @@
 GET http://localhost:20001/api/cities/
 
 ###
+GET http://localhost:20001/api/cities/getmovies/da6bcc17-9861-4e7b-bcdd-db2ded6911c7
+
+###
 GET http://localhost:20001/api/movies/
 
 
 ###
 GET http://localhost:20002/api/tile?neLat=-15.227051&neLng=36.818820&swLat=12.524414&swLng=54.264442
+
+###
+GET http://localhost:20002/api/tile/all

@@ -108,16 +108,15 @@ def insert_one_movie():
     db_dst.close()
     return "movie inserted", 201
 
-""" @app.route('/api/movies/getcityname/<str:id>', methods=['GET'])
-def get_city_name(id):
-    query = f'select name from cities where id = {id}'
+@app.route('/api/cities/getmovies/<id>', methods=['GET'])
+def get_all_movies_by_city_id(id):
+    query = f"select title from movies where city_id = '{id}'"
     db_dst, rel_cursor=connect_to_database()
     rel_cursor.execute(query)
-    name = rel_cursor.fetchall()
+    movies = rel_cursor.fetchall()
 
-    db_dst.close()
+    return movies
 
-    return name """
 
 
 if __name__ == '__main__':

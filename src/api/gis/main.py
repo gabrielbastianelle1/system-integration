@@ -38,10 +38,24 @@ def get_markers():
 
     rel_cursor.execute(query)
     result = rel_cursor.fetchall()
+
     db_dst.close()
 
     return result
 
+@app.route('/api/tile/all', methods=['GET'])
+def get_geo_json_all_cities():
+    db_dst, rel_cursor=connect_to_database()
+
+
+    query = "SELECT (SELECT jsonb_build_object('type', 'Feature','geometry', ST_AsGeoJSON(cities.geom)::jsonb,'properties', to_jsonb( t.* )  - 'geom') AS json FROM (VALUES (cities.id, cities.name, 'POINT(1 1)'::geometry)) AS t(id, name, geom)) FROM cities"
+
+    rel_cursor.execute(query)
+    result = rel_cursor.fetchall()
+
+    db_dst.close()
+
+    return result
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=PORT)
