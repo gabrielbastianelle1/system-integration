@@ -51,10 +51,10 @@ function ObjectsMap() {
     return (
         <span className='relative'>
             <div className='absolute z-10 flex space-x-4 top-2 left-20'>
-                <button className='max-w-min font-bold text-xl button bg-userBackground'>World</button>
-                <button className='max-w-min font-bold text-xl button bg-userBackground'>Europa</button>
-                <button className='max-w-min font-bold text-xl button bg-userBackground'>America</button>
-                <button className='max-w-min font-bold text-xl button bg-userBackground'>Asia</button>
+                <button onClick={handleClickWorld} className='max-w-min font-bold text-xl button bg-userBackground'>World</button>
+                <button onClick={handleClickEurope} className='max-w-min font-bold text-xl button bg-userBackground'>Europa</button>
+                <button onClick={handleClickAmerica} className='max-w-min font-bold text-xl button bg-userBackground'>America</button>
+                <button onClick={handleClickAsia} className='max-w-min font-bold text-xl button bg-userBackground'>Asia</button>
             </div>
             <MapContainer style={{width: "100%", height: "100vh", zIndex: 1}}
                         center={[0.000000, 0.000000]}
