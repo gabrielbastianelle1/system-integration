@@ -108,21 +108,16 @@ def insert_one_movie():
     db_dst.close()
     return "movie inserted", 201
 
-""" @app.route('/api/cities/<str:id>', methods=['GET'])
-def get_all_movies_by_city_id(id):
-    query = f'select * from movies where city_id = {id}'
+""" @app.route('/api/movies/getcityname/<str:id>', methods=['GET'])
+def get_city_name(id):
+    query = f'select name from cities where id = {id}'
     db_dst, rel_cursor=connect_to_database()
     rel_cursor.execute(query)
-    movies = rel_cursor.fetchall()
-    movies_json = []
-
-    for value in movies:
-        movie = Movie(id=value[0],listed_in=value[1], title=value[2], rating=value[3], director=value[4], score=value[5], duration=value[6], city_id=value[7], created_on=value[8], updated_on=value[9])
-        movies_json.append(movie)
+    name = rel_cursor.fetchall()
 
     db_dst.close()
 
-    return jsonify([movie.__dict__ for movie in movies_json]) """
+    return name """
 
 
 if __name__ == '__main__':
