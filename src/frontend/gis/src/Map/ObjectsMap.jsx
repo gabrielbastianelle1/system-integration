@@ -49,20 +49,14 @@ function ObjectsMap() {
 
 
     return (
-        <>
-            <button style={{
-                display: 'absolute'
-            }} onClick={handleClickWorld}>World</button>
-            <button style={{
-                display: 'absolute'
-            }} onClick={handleClickEurope}>Europa</button>
-            <button style={{
-                display: 'absolute'
-            }} onClick={handleClickAmerica}>America</button>
-            <button style={{
-                display: 'absolute'
-            }} onClick={handleClickAsia}>Asia</button>
-            <MapContainer style={{width: "100%", height: "100vh"}}
+        <span className='relative'>
+            <div className='absolute z-10 flex space-x-4 top-2 left-20'>
+                <button className='max-w-min font-bold text-xl button bg-userBackground'>World</button>
+                <button className='max-w-min font-bold text-xl button bg-userBackground'>Europa</button>
+                <button className='max-w-min font-bold text-xl button bg-userBackground'>America</button>
+                <button className='max-w-min font-bold text-xl button bg-userBackground'>Asia</button>
+            </div>
+            <MapContainer style={{width: "100%", height: "100vh", zIndex: 1}}
                         center={[0.000000, 0.000000]}
                         zoom={3}
                         scrollWheelZoom={false}
@@ -72,7 +66,7 @@ function ObjectsMap() {
                 />}
                 <ObjectMarkersGroup options={options}/>
             </MapContainer>
-        </>
+        </span>
     );
 }
 
