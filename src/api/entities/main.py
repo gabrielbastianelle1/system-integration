@@ -8,6 +8,8 @@ from entities.movie import Movie
 import psycopg2
 from psycopg2 import OperationalError
 
+from flask_cors import CORS, cross_origin
+
 import requests
 
 PORT = int(sys.argv[1]) if len(sys.argv) >= 2 else 9000
@@ -16,6 +18,7 @@ PORT = int(sys.argv[1]) if len(sys.argv) >= 2 else 9000
 # !TODO: replace by database access
 
 app = Flask(__name__)
+CORS(app)
 app.config["DEBUG"] = True
 
 def connect_to_database():
@@ -30,6 +33,11 @@ def get_city_id(city_name: str) -> str:
     for city in response_city.json():
         if(city['name'] == city_name):
             return city['id']
+
+@app.route('/api/teste/', methods=['GET'])
+#@cross_origin()
+def teste():
+    return "oi"
 
 @app.route('/api/cities/', methods=['GET'])
 def get_cities():
@@ -83,6 +91,17 @@ def create_one_movie():
     data = request.get_json()
     db_dst, rel_cursor=connect_to_database()
     query = f"insert into movies (listed_in, title, rating, director, score, duration, city_id) values ('{data[5]}', '{data[0]}', '{data[3]}', '{data[6]}', {data[1]}, '{data[2]}', '{get_city_id(data[4])}')"
+    rel_cursor.execute(query)
+    db_dst.commit()
+
+    db_dst.close()
+    return "movie inserted", 201
+
+@app.route('/api/movies/insert', methods=['POST'])
+def insert_one_movie():
+    data = request.get_json()
+    db_dst, rel_cursor=connect_to_database()
+    query = f"insert into movies (listed_in, title, rating, director, score, duration, city_id) values ('{data['listed_in']}', '{data['title']}', '{data['rating']}', '{data['director']}', {data['score']}, '{data['duration']}', '{data['city_id']}')"
     rel_cursor.execute(query)
     db_dst.commit()
 
