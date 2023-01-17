@@ -22,7 +22,10 @@ def connect_to_database():
 
 @app.route('/api/movies/order', methods=['GET'])
 def order_total_movies_per_country():
-    query = f"select unnest(xpath('.//type/release_year/country/@country', xml))::text as countries, count(*) as total_movies from imported_documents where id = 1 group by countries order by total_movies desc;"
+
+    order = request.args.get('order')
+
+    query = f"select unnest(xpath('.//type/release_year/country/@country', xml))::text as countries, count(*) as total_movies from imported_documents where id = 1 group by countries order by total_movies {order};"
     db_xml, xml_cursor=connect_to_database()
     xml_cursor.execute(query)
     response = xml_cursor.fetchall()
@@ -33,7 +36,10 @@ def order_total_movies_per_country():
 
 @app.route('/api/movies/score', methods=['GET'])
 def order_movie_per_score():
-    query = f"select unnest(xpath('(.//type/release_year/country/movie[number(score)>number(6)])/title/text()', xml))::text as title,unnest(xpath('(.//type/release_year/country/movie[number(score)>number(6)])/score/text()', xml))::text::float as score from imported_documents where id = 1 order by score desc;"
+
+    score = request.args.get('score')
+
+    query = f"select unnest(xpath('(.//type/release_year/country/movie[number(score)>number({score})])/title/text()', xml))::text as title,unnest(xpath('(.//type/release_year/country/movie[number(score)>number({score})])/score/text()', xml))::text::float as score from imported_documents where id = 1 order by score desc;"
     db_xml, xml_cursor=connect_to_database()
     xml_cursor.execute(query)
     response = xml_cursor.fetchall()

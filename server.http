@@ -15,10 +15,10 @@ GET http://localhost:20002/api/tile/all
 
 
 ###
-GET http://localhost:20004/api/movies/order
+GET http://localhost:20004/api/movies/order?order=desc
 
 ###
-GET http://localhost:20004/api/movies/score
+GET http://localhost:20004/api/movies/score?score=8
 
 ###
 GET http://localhost:20004/api/movies/data?title=Sankofa
