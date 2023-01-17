@@ -12,3 +12,16 @@ GET http://localhost:20002/api/tile?neLat=-15.227051&neLng=36.818820&swLat=12.52
 
 ###
 GET http://localhost:20002/api/tile/all
+
+
+###
+GET http://localhost:20004/api/movies/order
+
+###
+GET http://localhost:20004/api/movies/score
+
+###
+GET http://localhost:20004/api/movies/data?title=Sankofa
+
+###
+GET http://localhost:20004/api/movies/rating?year=2020
